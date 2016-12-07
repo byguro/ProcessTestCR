@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <xsd:element name="disambiguationRules">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="chooseRule" minOccurs="0" maxOccurs="unbounded" type="ruleType">
+                <xsd:unique name="chooseOffset">
+                    <xsd:selector xpath="neighbour"/>
+                    <xsd:field xpath="@offset"/>
+                </xsd:unique>
+            </xsd:element>
+            <xsd:element name="deleteRule" minOccurs="0" maxOccurs="unbounded" type="ruleType">
+                <xsd:unique name="deleteOffset">
+                    <xsd:selector xpath="neighbour"/>
+                    <xsd:field xpath="@offset"/>
+                </xsd:unique>
+            </xsd:element>
+            
+            
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+    
+    <xsd:complexType name="ruleType">
+        <xsd:sequence>
+            <xsd:element name="neighbour" minOccurs="0" maxOccurs="unbounded" type="neighbourType"/>
+            <xsd:element name="target" minOccurs="1" maxOccurs="1" type="targetType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+                
+    <xsd:complexType name="neighbourType">
+       <xsd:complexContent>
+          <xsd:extension base="neighbourAndTargetType">
+             <xsd:attribute name="offset" use="required">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:integer">
+                        <xsd:pattern value="-?[1-9][0-9]*"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+             </xsd:attribute>
+          </xsd:extension>
+       </xsd:complexContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="targetType">
+        <xsd:complexContent>
+            <xsd:extension base="neighbourAndTargetType">
+                <xsd:attribute name="offset" type="xsd:integer" fixed="0"/>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="neighbourAndTargetType">
+      <xsd:complexContent>
+         <xsd:extension base="neighbourAndTargetContentsType">
+            <xsd:attribute name="firstOfSentence" default="false" type="xsd:boolean"/>
+            <xsd:attribute name="lastOfSentence" default="false" type="xsd:boolean"/>
+         </xsd:extension>
+      </xsd:complexContent>
+   </xsd:complexType>
+   
+   <xsd:complexType name="neighbourAndTargetContentsType">
+     <xsd:sequence>
+     <xsd:choice>
+        <xsd:element ref="token"/>
+        <xsd:element ref="parse"/>
+     </xsd:choice>
+     <xsd:choice minOccurs="0">
+        <xsd:element ref="token"/>
+        <xsd:element ref="parse"/>
+     </xsd:choice>
+     </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:element name="token">
+     <xsd:complexType>
+         <xsd:simpleContent>
+            <xsd:extension base="unemptyString">
+               <xsd:attribute name="matchType" default="string">
+                  <xsd:simpleType>
+                      <xsd:restriction base="xsd:string">
+                         <xsd:enumeration value="string"/>
+                         <xsd:enumeration value="regex"/>
+                      </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:attribute>
+            </xsd:extension>
+         </xsd:simpleContent>
+     </xsd:complexType>
+   </xsd:element>
+   
+   <xsd:element name="parse">
+      <xsd:complexType>
+          <xsd:simpleContent>
+             <xsd:extension base="parseFormat">
+                 <xsd:attribute name="stemAllowed" default="true" type="xsd:boolean"/>
+             </xsd:extension>
+          </xsd:simpleContent>
+      </xsd:complexType>
+   </xsd:element>
+           
+   <xsd:simpleType name="parseFormat">
+      <xsd:restriction base="unemptyString">
+          <xsd:pattern value='((([a-zA-Z0-9çğşıüö]+)|([\-\.\?!/:])|(\.{3})|\^DB)((\+[a-zA-Z0-9]+)|\^DB)*)'/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   
+   <xsd:simpleType name="unemptyString">
+      <xsd:restriction base="xsd:string">
+          <xsd:minLength value="1"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+</xsd:schema>

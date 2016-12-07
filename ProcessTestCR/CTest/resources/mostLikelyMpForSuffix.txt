@@ -1,0 +1,4564 @@
+li
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With	34
+Noun+A3sg+Pnon+Nom^DB+Adj+With	234
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With	21
+
+'den
+Noun+Prop+A3sg+Pnon+Abl	17
+Num+Real^DB+Noun+Zero+A3sg+Pnon+Abl	1
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+'ya
+Noun+Prop+A3sg+Pnon+Dat	35
+
+sý
+Noun+A3sg+P3sg+Nom	203
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Nom	2
+Adj^DB+Noun+Zero+A3sg+P3sg+Nom	5
+
+i
+Noun+A3sg+P3sg+Nom	411
+Pron+A1sg+Pnon+Acc	4
+Pron+A2pl+Pnon+Acc	1
+Noun+A3sg+Pnon+Acc	77
+Pron+Reflex+A1sg+P1sg+Acc	4
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Nom	8
+Adj^DB+Noun+Zero+A3sg+P3sg+Nom	13
+Pron+A2sg+Pnon+Acc	2
+Pron+Reflex+A2sg+P2sg+Acc	2
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Acc	2
+Noun+A3pl+P3sg+Nom	1
+Pron+A1pl+Pnon+Acc	2
+Noun+Prop+A3sg+Pnon+Nom	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+ýyor
+Verb+Pos+Prog1+A3sg	58
+
+'i
+Noun+Prop+A3sg+Pnon+Acc	31
+Noun+Prop+A3sg+P3sg+Nom	1
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Acc	2
+
+mediniz
+Verb+Neg+Past+A2pl	6
+
+larý
+Noun+A3pl+Pnon+Acc	25
+Noun+A3pl+P3sg+Nom	76
+Noun+A3pl+P3pl+Nom	11
+Noun+A3sg+P3pl+Nom	1
+
+an
+Verb+Pos^DB+Adj+PresPart	165
+
+den
+Noun+A3sg+Pnon+Abl	42
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Abl	3
+Verb+Pos^DB+Adj+PresPart	1
+Pron+A1pl+Pnon+Abl	1
+Pron+A1sg+Pnon+Abl	1
+
+mýþtým
+Verb+Pos+Narr+Past+A1sg	6
+
+'da
+Noun+Prop+A3sg+Pnon+Loc	102
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Loc	1
+Num+Real^DB+Noun+Zero+A3sg+Pnon+Loc	5
+
+yorduk
+Verb+Pos+Prog1+Past+A1pl	1
+
+'un
+Noun+Prop+A3sg+Pnon+Gen	35
+
+'le
+Noun+Prop+A3sg+Pnon+Ins	1
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Ins	1
+
+dý
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	5
+Verb+Pos+Past+A3sg	254
+
+m
+Noun+A3sg+P1sg+Nom	8
+
+miþti
+Verb+Pos+Narr+Past+A3sg	28
+
+mek
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	21
+
+'a
+Noun+Prop+A3sg+Pnon+Dat	39
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Dat	1
+
+eceðimiz
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+ü
+Noun+A3sg+Pnon+Acc	12
+Noun+A3sg+P3sg+Nom	69
+
+le
+Noun+A3sg+Pnon+Ins	41
+
+iyordum
+Verb+Pos+Prog1+Past+A1sg	2
+
+im
+Pron+A1sg+Pnon+Gen	4
+Pron+A1pl+Pnon+Gen	15
+Noun+A3sg+P1sg+Nom	6
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1sg	2
+
+luk
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	6
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	2
+
+ýmla
+Noun+A3sg+P1sg+Ins	2
+
+leþtik
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Past+A1pl	1
+
+ýp
+Verb+Pos^DB+Adverb+AfterDoingSo	14
+
+lice
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon^DB+Adverb+Ly	1
+
+a
+Noun+A3sg+Pnon+Dat	96
+Pron+A1sg+Pnon+Dat	9
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Dat	2
+Adj^DB+Noun+Zero+A3sg+Pnon+Dat	3
+
+ecektik
+Verb+Pos+Fut+Past+A1pl	1
+
+lere
+Noun+A3pl+Pnon+Dat	29
+Pron+Ques+A3pl+Pnon+Dat	1
+
+meden
+Verb+Pos^DB+Adverb+WithoutHavingDone	4
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Abl	1
+
+undan
+Adj^DB+Noun+Zero+A3sg+P3sg+Abl	1
+Noun+A3sg+P3sg+Abl	2
+
+üne
+Noun+A3sg+P3sg+Dat	9
+Adj^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+dýk
+Verb+Pos+Past+A1pl	8
+
+ini
+Noun+A3sg+P2sg+Acc	2
+Noun+A3sg+P3sg+Acc	95
+Adj^DB+Noun+Zero+A3sg+P3sg+Acc	2
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+sinde
+Noun+A3sg+P3sg+Loc	60
+
+masýna
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	12
+
+ý'nýn
+Noun+Prop+A3sg+P3sg+Gen	13
+
+ya
+Noun+A3sg+Pnon+Dat	47
+Adj^DB+Noun+Zero+A3sg+Pnon+Dat	12
+
+yi
+Noun+A3sg+Pnon+Acc	38
+Adj^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+lerde
+Noun+A3pl+Pnon+Loc	21
+
+yarak
+Verb+Pos^DB+Adverb+ByDoingSo	11
+
+mekten
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Abl	3
+
+miz
+Noun+A3sg+P1pl+Nom	4
+Num+Card^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+tu
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	3
+Verb+Pos+Past+A3sg	43
+
+e
+Noun+A3sg+Pnon+Dat	115
+Pron+A1pl+Pnon+Dat	8
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Dat	4
+Pron+A2pl+Pnon+Dat	2
+Pron+Reflex+A2sg+P2sg+Dat	1
+Pron+A2sg+Pnon+Dat	1
+
+'ýn
+Noun+Prop+A3sg+Pnon+Gen	152
+
+larýný
+Noun+A3pl+P3sg+Acc	17
+Noun+A3pl+P3pl+Acc	12
+Adj^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+ünü
+Noun+A3sg+P3sg+Acc	13
+
+sýndan
+Noun+A3sg+P3sg+Abl	5
+Adj^DB+Noun+Zero+A3sg+P3sg+Abl	1
+
+dan
+Noun+A3sg+Pnon+Abl	61
+Adj^DB+Noun+Zero+A3sg+Pnon+Abl	9
+
+miþtik
+Verb+Pos+Narr+Past+A1pl	4
+
+lar
+Noun+A3pl+Pnon+Nom	130
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A3pl	2
+Noun+Prop+A3pl+Pnon+Nom	5
+
+muþtu
+Verb+Pos+Narr+Past+A3sg	3
+
+ýn
+Noun+A3sg+Pnon+Gen	127
+Adj^DB+Noun+Zero+A3sg+Pnon+Gen	2
+Pron+A2pl+Pnon+Gen	3
+Pron+Ques+A3sg+Pnon+Gen	1
+Verb+Pos+Imp+A2pl	2
+
+uydu
+Noun+A3sg+P3sg+Nom^DB+Verb+Zero+Past+A3sg	1
+
+iyorum
+Verb+Pos+Prog1+A1sg	7
+
+larým
+Noun+A3pl+P1sg+Nom	2
+
+meye
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	16
+
+r
+Verb+Pos+Aor+A3sg	2
+
+madý
+Verb+Neg+Past+A3sg	8
+
+tý
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	4
+Verb+Pos+Past+A3sg	137
+Noun+A3sg+P3sg+Nom	3
+
+tan
+Noun+A3sg+Pnon+Abl	12
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	4
+Adj^DB+Noun+Zero+A3sg+Pnon+Abl	2
+
+ 0
+Num+Range	2
+
+tmýþtýk
+Verb^DB+Verb+Caus+Pos+Narr+Past+A1pl	1
+
+abilir
+Verb^DB+Verb+Able+Pos+Aor+A3sg	4
+
+larda
+Noun+A3pl+Pnon+Loc	29
+Adj^DB+Noun+Zero+A3pl+Pnon+Loc	1
+
+üydü
+Noun+A3sg+P3sg+Nom^DB+Verb+Zero+Past+A3sg	2
+
+larýn
+Noun+A3pl+Pnon+Gen	42
+Noun+A3pl+P2sg+Nom	1
+
+unun
+Noun+A3sg+P3sg+Gen	17
+Adj^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+ine
+Noun+A3sg+P3sg+Dat	62
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+yen
+Verb+Pos^DB+Adj+PresPart	24
+Verb^DB+Adj+PresPart+Pos	6
+
+yip
+Verb+Pos^DB+Adverb+AfterDoingSo	5
+
+ense
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Cond+A3sg	1
+
+ümüzdü
+Adj^DB+Noun+Zero+A3sg+P1pl+Nom^DB+Verb+Zero+Past+A3sg	1
+
+çýlarýnýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+P3sg+Gen	1
+
+'nin
+Noun+Prop+A3sg+Pnon+Gen	159
+
+ardýðý
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+mez
+Verb+Neg+Aor+A3sg	2
+
+en
+Verb+Pos^DB+Adj+PresPart	145
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+týrýrken
+Verb^DB+Verb+Caus+Pos+Aor+A3sg^DB+Adverb+While	1
+
+dým
+Verb+Pos+Past+A1sg	16
+
+lan
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos+Imp+A2sg	1
+
+duðu
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	41
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	5
+
+ler
+Noun+A3pl+Pnon+Nom	114
+Adj^DB+Noun+Zero+A3pl+Pnon+Nom	10
+Pron+Ques+A3pl+Pnon+Nom	2
+Noun+Prop+A3pl+Pnon+Nom	2
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A3pl	1
+
+ttý
+Verb^DB+Verb+Caus+Pos+Past+A3sg	17
+
+likle
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Ins	25
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Ins	2
+
+'de
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Loc	4
+Noun+Prop+A3sg+Pnon+Loc	58
+Num+Real^DB+Noun+Zero+A3sg+Pnon+Loc	4
+Num+Range^DB+Noun+Zero+A3sg+Pnon+Loc	1
+
+u
+Noun+A3sg+P3sg+Nom	70
+Noun+A3sg+Pnon+Acc	25
+Adj^DB+Noun+Zero+A3sg+P3sg+Nom	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+sý'ný
+Noun+Prop+A3sg+P3sg+Acc	5
+
+'yý
+Noun+Prop+A3sg+Pnon+Acc	22
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+du
+Verb+Pos+Past+A3sg	40
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	1
+
+luðu
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Acc	1
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	1
+
+'e
+Noun+Prop+A3sg+Pnon+Dat	27
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Dat	1
+
+týrdý
+Verb^DB+Verb+Caus+Pos+Past+A3sg	4
+
+i'nde
+Noun+Prop+A3sg+P3sg+Loc	24
+
+yecek
+Verb+Pos+Fut+A3sg	3
+
+yiz
+Ques+Pres+A1pl	1
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1pl	1
+
+arak
+Verb+Pos^DB+Adverb+ByDoingSo	97
+
+acak
+Verb+Pos+Fut+A3sg	27
+Verb+Pos^DB+Adj+FutPart	8
+
+dikten
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	2
+
+de
+Noun+A3sg+Pnon+Loc	109
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Loc	2
+
+nlarý
+Pron+A3pl+Pnon+Acc	12
+
+manýn
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Gen	10
+
+dir
+Pron+Ques+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	3
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	14
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+Noun+A3sg+Pnon+Nom^Adverb	8
+Noun+Prop+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+yla
+Noun+A3sg+Pnon+Ins	16
+Noun+A3sg+P3sg+Ins	2
+
+laþýr
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Aor+A3sg	1
+
+ulur
+Verb^DB+Verb+Pass+Pos+Aor+A3sg	1
+
+ulmasýn
+Verb^DB+Verb+Pass+Neg+Imp+A3sg	1
+
+cý
+Noun+A3sg+Pnon+Nom^DB+Adj+Agt	8
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom	7
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+Agt	1
+
+ma
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	60
+Verb+Neg+Imp+A2sg	1
+
+ýlmazsa
+Verb^DB+Verb+Pass+Neg+Aor+Cond+A3sg	1
+
+luðuyla
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Ins	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Ins	1
+
+duðunuzu
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P2pl+Acc	1
+
+yamadan
+Verb^DB+Verb+AbleNeg+Neg^DB+Adverb+WithoutHavingDone	1
+
+da
+Noun+A3sg+Pnon+Loc	158
+Adj^DB+Noun+Zero+A3sg+Pnon+Loc	27
+
+nýrsýnýz
+Verb^DB+Verb+Pass+Pos+Aor+A2pl	1
+
+mak
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	44
+
+diði
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	59
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	9
+
+ün
+Noun+A3sg+Pnon+Gen	14
+
+sýna
+Noun+A3sg+P3sg+Dat	9
+Adj^DB+Noun+Zero+A3sg+P3sg+Dat	9
+
+mamanýn
+Verb+Neg^DB+Noun+Inf2+A3sg+Pnon+Gen	1
+
+sýný
+Noun+A3sg+P3sg+Acc	40
+Adj^DB+Noun+Zero+A3sg+P3sg+Acc	2
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+tmenin
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Gen	1
+
+ici
+Verb+Pos^DB+Adj+Agt	9
+
+liðine
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Dat	3
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Dat	1
+
+týr
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	2
+
+miþle
+Verb+Pos^DB+Adj+Zero^DB+Noun+Zero+A3sg+Pnon+Ins	1
+
+miyorum
+Verb+Neg+Prog1+A1sg	5
+
+miþi
+Verb+Pos^DB+Adj+Zero^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+maktan
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Abl	3
+
+armak
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+lýk
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	56
+Noun+A3sg+Pnon+Nom^DB+Adj+FitFor	33
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	22
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+FitFor	3
+
+lardan
+Noun+A3pl+Pnon+Abl	16
+
+yle
+Noun+A3sg+P3sg+Ins	3
+Noun+A3sg+Pnon+Ins	12
+
+mýzýn
+Noun+A3sg+P1pl+Gen	4
+
+na
+Noun+A3sg+P3sg+Dat	13
+Pron+A3sg+Pnon+Dat	11
+Noun+A3sg+P2sg+Dat	1
+
+sýz
+Noun+A3sg+Pnon+Nom^DB+Adj+Without	30
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+Without	1
+
+unu
+Noun+A3sg+P3sg+Acc	19
+
+tmesi
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+malý
+Verb+Pos+Neces+A3sg	1
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom^DB+Adj+With	1
+
+liðin
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Gen	4
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Gen	2
+
+ýdýr
+Noun+A3sg+P3sg+Nom^DB+Verb+Zero+Pres+Cop+A3sg	4
+
+nun
+Pron+A3sg+Pnon+Gen	33
+Noun+A3sg+Pnon+Gen	6
+
+la
+Noun+A3sg+Pnon+Ins	48
+
+liðinin
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Gen	3
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Gen	7
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Gen	1
+
+iyle
+Noun+A3sg+P3sg+Ins	32
+
+elim
+Verb+Pos+Opt+A1pl	2
+
+um
+Noun+A3sg+P1sg+Nom	5
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1sg	2
+
+nlar
+Pron+A3pl+Pnon+Nom	20
+
+'ýna
+Noun+Prop+A3sg+P3sg+Dat	5
+
+larý'ndan
+Noun+Prop+A3pl+P3sg+Abl	4
+
+ir
+Verb+Pos+Aor+A3sg	14
+Num+Ratio	1
+
+nu
+Pron+A3sg+Pnon+Acc	19
+
+er
+Verb+Pos+Aor+A3sg	6
+Num+Dist	1
+
+dur
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+sindekilerin
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel+A3pl+Pnon+Gen	1
+
+likleri
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Nom	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Acc	2
+
+dikleri
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	3
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	3
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	1
+
+eceðini
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	14
+
+landýrýr
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire^DB+Verb+Caus+Pos+Aor+A3sg	1
+
+ye
+Noun+A3sg+Pnon+Dat	42
+Verb+Pos+Opt+A3sg	33
+
+ar
+Verb+Pos+Aor+A3sg	4
+
+ýndan
+Noun+A3sg+P3sg+Abl	77
+Adj^DB+Noun+Zero+A3sg+P3sg+Abl	2
+
+inde
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc	32
+Noun+A3sg+P3sg+Loc	79
+
+irdi
+Verb^DB+Verb+Caus+Pos+Past+A3sg	3
+
+ta
+Noun+A3sg+Pnon+Loc	63
+
+mayacak
+Verb+Neg+Fut+A3sg	1
+Verb+Neg^DB+Adj+FutPart	1
+
+týðý
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	56
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	10
+
+ýcýnýn
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3sg+Pnon+Gen	1
+
+taki
+Noun+A3sg+Pnon+Loc^DB+Adj+Rel	5
+
+miþ
+Verb+Pos^DB+Adj+Zero	16
+Verb+Pos+Narr+A3sg	8
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Narr+A3sg	1
+
+lük
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	6
+Noun+A3sg+Pnon+Nom^DB+Adj+FitFor	5
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	3
+
+anlara
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Dat	1
+
+undasýnýz
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc^DB+Verb+Zero+Pres+A2pl	1
+
+luðum
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P1sg+Nom	1
+
+imdeki
+Noun+A3sg+P1sg+Loc^DB+Adj+Rel	1
+
+mýn
+Noun+A3sg+P1sg+Gen	2
+
+ýna
+Adj^DB+Noun+Zero+A3sg+P3sg+Dat	8
+Noun+A3sg+P3sg+Dat	50
+
+makla
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Ins	4
+
+ýþ
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Nom	49
+
+yan
+Verb+Pos^DB+Adj+PresPart	30
+
+ýlmasýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A2sg	1
+
+lu
+Noun+A3sg+Pnon+Nom^DB+Adj+With	21
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With	5
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With	1
+
+ludur
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+emediðim
+Verb^DB+Verb+AbleNeg+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1sg+Nom	1
+
+n
+Noun+A3sg+Pnon+Gen	4
+Noun+A3sg+P2sg+Nom	2
+
+ýþlarý
+Verb+Pos^DB+Noun+Inf3+A3pl+P3sg+Nom	2
+
+una
+Noun+A3sg+P3sg+Dat	14
+
+diðiniz
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P2pl+Nom	2
+
+acaðým
+Verb+Pos+Fut+A1sg	3
+
+lerinin
+Noun+A3pl+P3sg+Gen	33
+Noun+A3pl+P3pl+Gen	4
+Noun+A3sg+P3pl+Gen	5
+Adj^DB+Noun+Zero+A3pl+P3pl+Gen	1
+
+uluþu
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+P3sg+Nom	1
+
+dýðým
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1sg	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1sg+Nom	2
+
+sinin
+Noun+A3sg+P3sg+Gen	31
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+tim
+Verb+Pos+Past+A1sg	4
+
+larýndan
+Noun+A3pl+P3sg+Abl	7
+Noun+A3pl+P3pl+Abl	1
+Noun+A3sg+P3pl+Abl	1
+
+larla
+Noun+A3pl+Pnon+Ins	17
+Noun+Prop+A3pl+Pnon+Ins	1
+
+larýyla
+Noun+A3pl+P3pl+Ins	6
+Noun+A3pl+P3sg+Ins	6
+
+mý
+Noun+A3sg+P1sg+Acc	2
+
+abilmiþ
+Verb^DB+Verb+Able+Pos+Narr+A3sg	1
+
+masýydý
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom^DB+Verb+Zero+Past+A3sg	1
+
+sýdýr
+Noun+A3sg+P3sg+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+Adj^DB+Noun+Zero+A3sg+P3sg+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+erim
+Verb+Pos+Aor+A1sg	4
+
+16
+Num+Range	1
+
+diðimiz
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Nom	5
+
+nden
+Noun+A3sg+P3sg+Abl	1
+Pron+Reflex+A3sg+P3sg+Abl	1
+
+ayým
+Verb+Pos+Opt+A1sg	1
+
+ý'nda
+Noun+Prop+A3sg+P3sg+Loc	8
+
+nmiþtir
+Verb^DB+Verb+Pass+Pos+Narr+Cop+A3sg	2
+Verb^DB+Verb+Pass+Pos^DB+Adj+Zero^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+ýnýzý
+Noun+A3sg+P2pl+Acc	4
+
+nizin
+Noun+A3sg+P2pl+Gen	1
+
+diriniz
+Verb^DB+Verb+Caus+Pos+Imp+A2pl	1
+
+ýnda
+Noun+A3sg+P3sg+Loc	88
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc	18
+
+ndan
+Pron+A3sg+Pnon+Abl	5
+Noun+A3sg+P3sg+Abl	1
+
+nirdi
+Verb^DB+Verb+Pass+Pos+Aor+Past+A3sg	1
+
+liði
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	18
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	10
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Acc	5
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Acc	1
+
+larýmda
+Noun+A3pl+P1sg+Loc	1
+
+leri
+Noun+A3pl+P3sg+Nom	68
+Noun+A3pl+Pnon+Acc	22
+Noun+A3pl+P3pl+Nom	9
+Noun+A3sg+P3pl+Nom	2
+
+lerini
+Noun+A3pl+P3sg+Acc	22
+Noun+A3pl+P3pl+Acc	6
+Adj^DB+Noun+Zero+A3pl+P3sg+Acc	1
+Adj^DB+Noun+Zero+A3pl+P3pl+Acc	1
+
+ýþý
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Nom	1
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Acc	1
+
+sýyla
+Noun+A3sg+P3sg+Ins	5
+
+ýldýðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	20
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+luklarda
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Loc	1
+
+urdu
+Verb+Pos+Aor+Past+A3sg	1
+Verb^DB+Verb+Caus+Pos+Past+A3sg	3
+
+te
+Noun+A3sg+Pnon+Loc	13
+Adj^DB+Noun+Zero+A3sg+Pnon+Loc	1
+
+enler
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Nom	3
+
+lara
+Noun+A3pl+Pnon+Dat	22
+
+lerinde
+Noun+A3pl+P3sg+Loc	17
+Noun+A3pl+P3pl+Loc	7
+Noun+A3sg+P3pl+Loc	1
+
+yup
+Verb+Pos^DB+Adverb+AfterDoingSo	1
+
+nen
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	15
+
+larýmýz
+Noun+A3pl+P1pl+Nom	5
+
+muþtur
+Verb+Pos+Narr+Cop+A3sg	3
+
+nan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	33
+
+miþlerdir
+Verb+Pos+Narr+A3pl+Cop	1
+
+ardý
+Verb+Pos+Aor+Past+A3sg	3
+Verb^DB+Verb+Caus+Pos+Past+A3sg	2
+
+mezdi
+Verb+Neg+Aor+Past+A3sg	1
+
+ciliðini
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	1
+
+luklarýna
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Dat	2
+
+larýnda
+Noun+A3pl+P3sg+Loc	27
+Adj^DB+Noun+Zero+A3sg+P3pl+Loc	2
+Adj^DB+Noun+Zero+A3pl+P3pl+Loc	7
+Noun+A3pl+P3pl+Loc	6
+Noun+A3sg+P3pl+Loc	1
+Adj^DB+Noun+Zero+A3pl+P3sg+Loc	3
+
+nunla
+Pron+A3sg+Pnon+Ins	2
+
+diðinde
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Loc	3
+
+tuðunda
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Loc	1
+
+süyle
+Noun+A3sg+P3sg+Ins	1
+
+ýþýyla
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Ins	1
+
+dirtir
+Verb^DB+Verb+Caus^DB+Verb+Caus+Pos+Aor+A3sg	1
+
+lerden
+Noun+Prop+A3pl+Pnon+Abl	1
+Noun+A3pl+Pnon+Abl	14
+
+'ün
+Noun+Prop+A3sg+Pnon+Gen	4
+
+dirdiði
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	3
+
+lerinden
+Noun+A3pl+P3sg+Abl	10
+Noun+A3pl+P3pl+Abl	2
+
+inden
+Noun+A3sg+P3sg+Abl	20
+
+lýðý'nda
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Loc	1
+
+'indi
+Noun+Prop+A3sg+Pnon+Gen^DB+Verb+Zero+Past+A3sg	1
+
+anýn
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3sg+Pnon+Gen	2
+
+ýldý
+Verb^DB+Verb+Pass+Pos+Past+A3sg	55
+
+tirildi
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Past+A3sg	2
+
+siyle
+Noun+A3sg+P3sg+Ins	10
+
+01
+Num+Range	1
+
+nýn
+Noun+A3sg+Pnon+Gen	94
+Noun+A3sg+P3sg+Gen	4
+Pron+Reflex+A3pl+P3pl+Gen+Nom	2
+Pron+Reflex+A3sg+P3sg+Gen+Nom	1
+
+lanan
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Adj+PresPart	1
+
+muþ
+Verb+Pos^DB+Adj+Zero	2
+Verb+Pos+Narr+A3sg	1
+
+yu
+Noun+A3sg+Pnon+Acc	5
+Noun+A3sg+P3sg+Nom	9
+
+dükten
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+ülmeyi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+üp
+Verb+Pos^DB+Adverb+AfterDoingSo	1
+
+ince
+Verb+Pos^DB+Adverb+When	4
+Noun+A3sg+P3sg^DB+Adverb+Ly	1
+
+lü
+Noun+A3sg+Pnon+Nom^DB+Adj+With	15
+
+nü
+Noun+A3sg+P3sg+Acc	1
+
+me
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	34
+Noun+A3sg+P1sg+Dat	1
+
+kü
+Noun+A3sg+Pnon+Nom^DB+Adj+Rel+Nom	11
+
+mamasý
+Verb+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	3
+
+dü
+Verb+Pos+Past+A3sg	14
+
+lýktaki
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Loc^DB+Adj+Rel	1
+
+liler
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Nom	9
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Nom	11
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A3pl	1
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Nom	2
+
+tiler
+Verb+Pos+Past+A3pl	7
+
+'la
+Noun+Prop+A3sg+Pnon+Ins	4
+
+ýrken
+Verb+Pos+Aor+A3sg^DB+Adverb+While	8
+
+nde
+Noun+A3sg+P3sg+Loc	5
+Pron+Reflex+A3sg+P3sg+Loc+Nom	1
+
+yacaklar
+Verb+Pos+Fut+A3pl	2
+
+malarýný
+Verb+Pos^DB+Noun+Inf2+A3sg+P3pl+Acc	1
+
+'yla
+Noun+Prop+A3sg+Pnon+Ins	1
+
+týðýnda
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Loc	1
+
+ydi
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	1
+Ques+Past+A3sg	1
+
+maya
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	14
+
+dýlar
+Verb+Pos+Past+A3pl	9
+
+yordu
+Verb+Pos+Prog1+Past+A3sg	1
+
+malýydý
+Verb+Pos+Neces+Past+A3sg	1
+
+lüðünü
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	4
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	2
+
+diklerini
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	6
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Acc	3
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+
+maz
+Verb+Neg+Aor+A3sg	8
+
+týklarýný
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	4
+
+rler
+Verb+Pos+Aor+A3pl	1
+
+larýmý
+Noun+A3pl+P1sg+Acc	1
+
+yebilmiþtir
+Verb^DB+Verb+Able+Pos+Narr+Cop+A3sg	1
+
+miþtir
+Verb+Pos+Narr+Cop+A3sg	1
+
+tü
+Verb+Pos+Past+A3sg	2
+
+sýzlýk
+Noun+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	2
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	2
+
+inin
+Noun+A3sg+P3sg+Gen	63
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Gen	3
+
+üldü
+Verb^DB+Verb+Pass+Pos+Past+A3sg	6
+
+'ndan
+Noun+Prop+A3sg+P3sg+Abl	3
+
+ne
+Noun+A3sg+P2sg+Dat	1
+Pron+Reflex+A3sg+P3sg+Dat	9
+Pron+Reflex+A3pl+P3pl+Dat	2
+Noun+A3sg+P3sg+Dat	2
+
+acaðýz
+Verb+Pos+Fut+A1pl	6
+
+tuðu
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	3
+
+ünün
+Noun+A3sg+P3sg+Gen	14
+
+mesini
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	5
+
+yeceðiz
+Verb+Pos+Fut+A1pl	1
+
+uran
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	1
+
+ünde
+Noun+A3sg+P3sg+Loc	9
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc	1
+
+ilerek
+Verb^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	9
+
+eceðe
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Dat	1
+
+yacak
+Verb+Pos+Fut+A3sg	14
+Verb+Pos^DB+Adj+FutPart	5
+
+laþtýðý
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+teki
+Noun+A3sg+Pnon+Loc^DB+Adj+Rel	7
+
+un
+Noun+A3sg+Pnon+Gen	30
+
+ýmýzýn
+Noun+A3sg+P1pl+Gen	4
+
+lerin
+Noun+A3pl+Pnon+Gen	46
+Adj^DB+Noun+Zero+A3pl+Pnon+Gen	1
+
+deki
+Noun+A3sg+Pnon+Loc^DB+Adj+Rel	11
+
+lýklardan
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Abl	1
+
+nda
+Noun+A3sg+P3sg+Loc	1
+Pron+A3sg+Pnon+Loc	2
+
+nmasý
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	12
+
+uyor
+Verb+Pos+Prog1+A3sg	10
+
+ni
+Noun+A3sg+P3sg+Acc	4
+Pron+Reflex+A3pl+P3pl+Acc	2
+Pron+Reflex+A3sg+P3sg+Acc	5
+
+diren
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	8
+
+yor
+Verb+Pos+Prog1+A3sg	22
+
+nlardan
+Pron+A3pl+Pnon+Abl	3
+
+inci
+Num+Ord	9
+
+ulabilmesi
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+turmaya
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+erek
+Verb+Pos^DB+Adverb+ByDoingSo	41
+
+acaðýný
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	12
+
+tiyor
+Verb^DB+Verb+Caus+Pos+Prog1+A3sg	3
+
+ca
+Adj^DB+Noun+Zero+A3sg+Pnon^DB+Adverb+Ly	21
+Noun+A3sg+Pnon^DB+Adverb+Ly	1
+
+meyip
+Verb+Neg^DB+Adverb+AfterDoingSo	1
+
+luðunun
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Gen	1
+
+mediði
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	2
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+meyeceðini
+Verb+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	3
+
+sý'nda
+Noun+Prop+A3sg+P3sg+Loc	17
+
+likler
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Nom	2
+
+ilmesi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	8
+
+ýlmasý
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	11
+
+larýna
+Noun+A3pl+P3sg+Dat	16
+Noun+A3pl+P3pl+Dat	6
+Noun+A3sg+P3pl+Dat	1
+
+týlmasýnýn
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	1
+
+si'nin
+Noun+Prop+A3sg+P3sg+Gen	4
+
+sunda
+Noun+A3sg+P3sg+Loc	12
+
+nmesi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	4
+
+erini
+Noun+A3pl+P3sg+Acc	1
+
+aran
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	1
+
+nci
+Num+Ord	16
+
+lerine
+Noun+A3pl+P3sg+Dat	29
+Noun+A3pl+P3pl+Dat	3
+Noun+A3sg+P3pl+Dat	1
+
+yabilmesi
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	2
+
+mesi
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	24
+
+leri'ni
+Noun+Prop+A3pl+P3sg+Acc	1
+
+'ye
+Noun+Prop+A3sg+Pnon+Dat	18
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Dat	3
+
+iþini
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Acc	1
+
+laþtýrmak
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+ülen
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	4
+
+ilen
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	41
+
+leþme
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	4
+
+týracak
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart	1
+
+ndiriyor
+Verb^DB+Verb+Caus+Pos+Prog1+A3sg	1
+
+si'nde
+Noun+Prop+A3sg+P3sg+Loc	8
+
+unda
+Noun+A3sg+P3sg+Loc	43
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc	2
+
+nmýþ
+Verb^DB+Verb+Pass+Pos^DB+Adj+Zero	7
+
+lüðü
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	7
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Acc	1
+
+ký
+Noun+A3sg+P3sg+Nom	2
+Noun+A3sg+Pnon+Nom^DB+Adj+Rel	15
+Postp^DB+Adj+Rel	8
+
+turan
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	3
+
+indeki
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc^DB+Adj+Rel	3
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	9
+
+üþ
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Nom	7
+
+lýklarý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Nom	3
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Nom	1
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3pl+Nom	1
+
+acaðý
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	17
+
+undaki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	9
+
+lerle
+Noun+A3pl+Pnon+Ins	8
+
+sýndaki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	2
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc^DB+Adj+Rel	10
+
+mesine
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	8
+
+lüðüne
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Dat	1
+
+lýða
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Dat	2
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Dat	1
+
+leþtirilememesinden
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become^DB+Verb+Caus^DB+Verb+Pass^DB+Verb+AbleNeg+Neg^DB+Noun+Inf2+A3sg+P3sg+Abl	1
+
+landýðý
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+nmalýdýr
+Verb^DB+Verb+Pass+Pos+Neces+Cop+A3sg	1
+
+lerce
+Num+Card^DB+Noun+Zero+A3pl+Pnon^DB+Adverb+Ly	4
+Noun+A3pl+Pnon^DB+Adverb+Ly	1
+
+irmiþ
+Verb^DB+Verb+Caus+Pos^DB+Adj+Zero	1
+
+miyor
+Verb+Neg+Prog1+A3sg	5
+
+larýnýn
+Noun+A3pl+P3sg+Gen	31
+Adj^DB+Noun+Zero+A3pl+P3sg+Gen	1
+Noun+A3sg+P3pl+Gen	5
+Adj^DB+Noun+Zero+A3sg+P3pl+Gen	1
+Noun+A3pl+P3pl+Gen	2
+
+ndeki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	5
+
+dirildi
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Past+A3sg	16
+
+ýndaki
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc^DB+Adj+Rel	2
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	11
+
+tmek
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	2
+
+ýyla
+Noun+A3sg+P3sg+Ins	25
+
+abilmek
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	2
+
+irdikten
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+ýlmak
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	4
+
+lisi
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+madan
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Abl	3
+Verb+Pos^DB+Adverb+WithoutHavingDone	6
+
+anlar
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Nom	4
+
+lýklar
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Nom	2
+
+ilmiþ
+Verb^DB+Verb+Pass+Pos+Narr+A3sg	2
+Verb^DB+Verb+Pass+Pos^DB+Adj+Zero	4
+
+masý
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	33
+
+nmýyor
+Verb^DB+Verb+Pass+Neg+Prog1+A3sg	1
+
+melerine
+Verb+Pos^DB+Noun+Inf2+A3pl+P3pl+Dat	1
+
+abiliyorlar
+Verb^DB+Verb+Able+Pos+Prog1+A3pl	1
+
+su
+Noun+A3sg+P3sg+Nom	30
+
+ulacak
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart	6
+
+ýlacak
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart	9
+Verb^DB+Verb+Pass+Pos+Fut+A3sg	5
+
+lilik
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+FitFor	2
+
+unlu
+Noun+A3sg+P2sg+Nom^DB+Adj+With	1
+
+ilmelidir
+Verb^DB+Verb+Pass+Pos+Neces+Cop+A3sg	1
+
+liðe
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Dat	5
+
+türülmelidir
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Neces+Cop+A3sg	1
+
+ýlýrken
+Verb^DB+Verb+Pass+Pos+Aor+A3sg^DB+Adverb+While	3
+
+meler
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Nom	4
+
+ýlmalýdýr
+Verb^DB+Verb+Pass+Pos+Neces+Cop+A3sg	1
+
+ýlabilir
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos+Aor+A3sg	1
+
+ýnabilir
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos+Aor+A3sg	2
+
+madýðý
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	8
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	2
+
+mazsa
+Verb+Neg+Aor+Cond+A3sg	1
+
+melere
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Dat	4
+
+ýyorlar
+Verb+Pos+Prog1+A3pl	9
+
+liðini
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	3
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	5
+
+leriniz
+Noun+A3pl+P2pl+Nom	1
+
+ýlýyorsa
+Verb^DB+Verb+Pass+Pos+Prog1+Cond+A3sg	1
+
+ttiðiniz
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P2pl+Nom	1
+
+sindeyse
+Noun+A3sg+P3sg+Loc^DB+Verb+Zero+Cond+A3sg	1
+
+tiðiniz
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P2pl+Nom	4
+
+lerinizi
+Noun+A3pl+P2pl+Acc	1
+
+cýlar
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Nom	7
+
+se
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Cond+A3sg	4
+
+imize
+Noun+A3sg+P1pl+Dat	1
+
+ýmýzý
+Noun+A3sg+P1pl+Acc	4
+
+ecek
+Verb+Pos^DB+Adj+FutPart	22
+Verb+Pos+Fut+A3sg	25
+
+yýþlarýna
+Verb+Pos^DB+Noun+Inf3+A3pl+P3pl+Dat	1
+
+aný
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+arsak
+Verb+Pos+Aor+Cond+A1pl	1
+
+ýrým
+Verb+Pos+Aor+A1sg	3
+
+'deki
+Noun+Prop+A3sg+Pnon+Loc^DB+Adj+Rel	16
+
+enlerin
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Gen	6
+
+sýnda
+Noun+A3sg+P3sg+Loc	39
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc	41
+
+li'nin
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Gen	1
+
+mesiyle
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+ýldýklarý
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	2
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	1
+
+düklerini
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	2
+
+tiliyor
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Prog1+A3sg	8
+
+'u
+Noun+Prop+A3sg+Pnon+Acc	3
+
+dirmeyi
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	2
+
+ndý
+Verb^DB+Verb+Pass+Pos+Past+A3sg	40
+
+laþtý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Past+A3sg	1
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Past+A3sg	1
+
+nmasýný
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	6
+
+iciler
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+Pnon+Nom	3
+
+erken
+Verb+Pos+Aor+A3sg^DB+Adverb+While	7
+
+icileri
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+Pnon+Acc	1
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+P3sg+Nom	1
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+P3pl+Nom	1
+
+mada
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Loc	29
+
+masýný
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	10
+
+mayý
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	12
+
+rdik
+Verb+Pos+Aor+Past+A1pl	1
+
+mamayý
+Verb+Neg^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+masýnda
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Loc	3
+
+tirebilmek
+Verb^DB+Verb+Caus^DB+Verb+Able+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+duðunu
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	50
+
+amayýnca
+Verb^DB+Verb+AbleNeg+Neg^DB+Adverb+When	1
+
+mamakla
+Verb+Neg^DB+Noun+Inf1+A3sg+Pnon+Ins	2
+
+dürülmüþ
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Narr+A3sg	1
+
+ünden
+Noun+A3sg+P3sg+Abl	11
+Adj^DB+Noun+Zero+A3sg+P3sg+Abl	1
+
+daki
+Noun+A3sg+Pnon+Loc^DB+Adj+Rel	11
+Adj^DB+Noun+Zero+A3sg+Pnon+Loc^DB+Adj+Rel	3
+Noun+A3sg+Pnon+Loc^DB+Adj+Rel+Nom	1
+
+masýyla
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	7
+
+cýlýðýyla
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Ins	3
+
+sinden
+Noun+A3sg+P3sg+Abl	9
+
+dürdüðüne
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+ndýðýný
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	10
+
+temeyeceðini
+Verb^DB+Verb+Caus^DB+Verb+AbleNeg+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ten
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	11
+Noun+A3sg+Pnon+Abl	18
+
+luluðunun
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Gen	1
+
+týðýný
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	23
+
+yorlar
+Verb+Pos+Prog1+A3pl	3
+
+sine
+Noun+A3sg+P3sg+Dat	13
+
+diðini
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	41
+
+dürdükten
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+dirilen
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+ilmiþti
+Verb^DB+Verb+Pass+Pos+Narr+Past+A3sg	6
+Verb^DB+Verb+Pass+Pos^DB+Adj+Zero^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	1
+
+'te
+Noun+Prop+A3sg+Pnon+Loc	7
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Loc	1
+Num+Real^DB+Noun+Zero+A3sg+Pnon+Loc	2
+Num+Range^DB+Noun+Zero+A3sg+Pnon+Loc	1
+
+sindeki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	3
+
+erinden
+Noun+A3pl+P3sg+Abl	1
+
+'daki
+Noun+Prop+A3sg+Pnon+Loc^DB+Adj+Rel	20
+
+mayla
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Ins	2
+
+ilmedi
+Verb^DB+Verb+Pass+Neg+Past+A3sg	2
+
+uluyor
+Verb^DB+Verb+Pass+Pos+Prog1+A3sg	2
+
+undu
+Verb^DB+Verb+Pass+Pos+Past+A3sg	2
+
+lileri
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+P3sg+Nom	5
+
+irdikleri
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	2
+
+unan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	3
+
+dýklarý
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	5
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	4
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	3
+
+duðunun
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Gen	3
+
+dirdiler
+Verb^DB+Verb+Caus+Pos+Past+A3pl	3
+
+dürüldükleri
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	1
+
+ýlýyor
+Verb^DB+Verb+Pass+Pos+Prog1+A3sg	11
+
+ýlan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	55
+
+dirilmiþti
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Narr+Past+A3sg	1
+
+ldi
+Verb^DB+Verb+Pass+Pos+Past+A3sg	1
+
+cilerin
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Gen	5
+
+lmesi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ciler
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Nom	3
+
+larýndaki
+Adj^DB+Noun+Zero+A3pl+P3sg+Loc^DB+Adj+Rel	1
+Adj^DB+Noun+Zero+A3sg+P3pl+Loc^DB+Adj+Rel	2
+Noun+A3pl+P3sg+Loc^DB+Adj+Rel	5
+
+lmesiyle
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+ttýðý
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	3
+
+düðü
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	7
+
+týldý
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Past+A3sg	9
+
+uþ
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Nom	7
+
+mesinde
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Loc	2
+
+sýzlýkla
+Noun+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Ins	1
+
+ilmeseydi
+Verb^DB+Verb+Pass+Neg+Desr+Past+A3sg	1
+
+týracaktý
+Verb^DB+Verb+Caus+Pos+Fut+Past+A3sg	1
+
+uþunu
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Acc	1
+
+ürülen
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+turulacaðýný
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+diler
+Verb+Pos+Past+A3pl	10
+
+leþtiren
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become^DB+Verb+Caus+Pos^DB+Adj+PresPart	1
+
+culuklarý
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Acc	1
+
+ler'in
+Noun+Prop+A3pl+Pnon+Gen	1
+
+uþu
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Nom	3
+
+cýlýk
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	5
+
+týran
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	1
+
+abilen
+Verb^DB+Verb+Able+Pos^DB+Adj+PresPart	1
+
+süz
+Noun+A3sg+Pnon+Nom^DB+Adj+Without	1
+
+uyla
+Noun+A3sg+P3sg+Ins	6
+
+ülüyor
+Verb^DB+Verb+Pass+Pos+Prog1+A3sg	11
+
+landýrdýðý
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+eceði
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	4
+
+nmesinin
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	2
+
+nýlmasý
+Verb^DB+Verb+Pass^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+cýsý
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+P3sg+Nom	19
+
+urken
+Verb+Pos+Aor+A3sg^DB+Adverb+While	5
+
+ýyordu
+Verb+Pos+Prog1+Past+A3sg	6
+
+rim
+Verb+Pos+Aor+A1sg	1
+
+emeyeceðim
+Verb^DB+Verb+AbleNeg+Neg+Fut+A1sg	1
+
+ildiðinde
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Loc	1
+
+madýðýný
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	16
+
+inmiyor
+Verb^DB+Verb+Pass+Neg+Prog1+A3sg	3
+
+duðuna
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	3
+
+dürüldüðü
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+leriyle
+Noun+A3pl+P3sg+Ins	7
+Noun+A3sg+P3pl+Ins	1
+Noun+A3pl+P3pl+Ins	2
+
+dürülen
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+yabilmek
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+rken
+Verb+Pos+Aor+A3sg^DB+Adverb+While	10
+
+lilere
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Dat	2
+
+lilerin
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Prop+Zero+A3pl+Pnon+Gen	1
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Gen	1
+
+arttýðýný
+Verb^DB+Verb+Caus^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+masýnýn
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	10
+
+üþüne
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Dat	1
+
+mekte
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Loc	1
+
+amayacaðýný
+Verb^DB+Verb+AbleNeg+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+düren
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	3
+
+çiler
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Nom	2
+
+ýðý
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	4
+
+yeceklerini
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+i'ne
+Noun+Prop+A3sg+P3sg+Dat	1
+
+inen
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	2
+
+çi
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom	3
+Noun+A3sg+Pnon+Nom^DB+Adj+Agt	6
+
+ilmesini
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	2
+
+dirmek
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	2
+
+nmesini
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	2
+
+dirdi
+Verb^DB+Verb+Caus+Pos+Past+A3sg	15
+
+lýðý'nýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Gen	6
+
+malarý
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Nom	4
+Verb+Pos^DB+Noun+Inf2+A3sg+P3pl+Nom	2
+Verb+Pos^DB+Noun+Inf2+A3pl+P3pl+Nom	2
+
+lilerini
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+ýlarak
+Verb^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	5
+
+týlsýn
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Imp+A3sg	1
+
+týlmamasý
+Verb^DB+Verb+Caus^DB+Verb+Pass+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+mayacaklarýný
+Verb+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+
+'ta
+Noun+Prop+A3sg+Pnon+Loc	5
+
+duracaklarý
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Nom	1
+
+týlmasý
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	5
+
+yacaklarýný
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3pl+Acc	1
+
+ilmesine
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	3
+
+týlmasýný
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+tma
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	4
+
+durma
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	2
+
+maksýzýn
+Verb+Pos^DB+Adverb+"maksizin"	1
+
+yabileceði
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+tilerek
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	1
+
+ýnacaðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+üne almalýdýr
+Verb+Pos+Neces+Cop+A3sg	1
+
+nilen
+Verb^DB+Verb+Pass^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+durdu
+Verb^DB+Verb+Caus+Pos+Past+A3sg	2
+
+'ten
+Noun+Prop+A3sg+Pnon+Abl	3
+
+týndan
+Noun+A3sg+P3sg+Abl	2
+
+duran
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	2
+
+sizliðini
+Noun+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	1
+
+durmasýnýn
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	1
+
+'tan
+Noun+Prop+A3sg+Pnon+Abl	4
+
+lýðýnda
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc	3
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc	2
+
+meyen
+Verb+Neg^DB+Adj+PresPart	7
+
+i'ndeki
+Noun+Prop+A3sg+P3sg+Loc^DB+Adj+Rel	4
+
+duracaðýný
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+kýnda
+Noun+A3sg+P3sg+Loc	13
+
+düreceðini
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ttiler
+Verb^DB+Verb+Caus+Pos+Past+A3pl	2
+
+liðindeki
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc^DB+Adj+Rel	1
+
+yeceði
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+lanmayý
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+üyor
+Verb+Pos+Prog1+A3sg	9
+
+nacak
+Verb^DB+Verb+Pass+Pos+Fut+A3sg	8
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart	4
+
+ursa
+Verb+Pos+Aor+Cond+A3sg	4
+
+sun
+Verb+Pos+Imp+A3sg	5
+
+'ce
+Noun+Prop+A3sg+Pnon^DB+Adverb+Ly	1
+
+muyor
+Verb+Neg+Prog1+A3sg	2
+
+nmiþti
+Verb^DB+Verb+Pass+Pos+Narr+Past+A3sg	5
+
+zde 82
+Num+Percent	1
+
+ 79.98
+Num+Percent	1
+
+zde 25
+Num+Percent	2
+
+'lýk
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+FitFor	1
+Num+Real^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+FitFor	1
+Num+Range^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+FitFor	3
+
+niyor
+Verb^DB+Verb+Pass+Pos+Prog1+A3sg	10
+
+tiklerini
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	3
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+ýþlar
+Verb+Pos^DB+Noun+Inf3+A3pl+Pnon+Nom	1
+
+tiðine
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	2
+
+acaktýr
+Verb+Pos+Fut+Cop+A3sg	7
+
+dýklarýný
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	2
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	3
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+yabileceðini
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ilebileceðini
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	2
+
+yoruz
+Verb+Pos+Prog1+A1pl	13
+
+iz
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1pl	2
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1pl	1
+Noun+Prop+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1pl	1
+
+dýrýlacak
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Fut+A3sg	1
+
+maktadýr
+Verb+Pos+Prog2+Cop+A3sg	2
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Loc^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+rýz
+Verb+Pos+Aor+A1pl	1
+
+meleri
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Nom	2
+
+nýrken
+Verb^DB+Verb+Pass+Pos+Aor+A3sg^DB+Adverb+While	6
+
+melerinde
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Loc	3
+
+týklarý
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	2
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	2
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+Pnon+Acc	1
+
+acaklarýný
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3pl+Acc	2
+
+cu
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom	13
+Noun+A3sg+Pnon+Nom^DB+Adj+Agt	1
+
+melerde
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Loc	2
+
+cusu
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+P3sg+Nom	6
+
+luðunu
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	2
+
+ýþlarýnda
+Verb+Pos^DB+Noun+Inf3+A3pl+P3sg+Loc	1
+
+ciyi
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Acc	1
+
+'lü
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With	2
+
+iyoruz
+Verb+Pos+Prog1+A1pl	8
+
+tikleri
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	2
+
+terek
+Verb^DB+Verb+Caus+Pos^DB+Adverb+ByDoingSo	20
+
+imiz
+Noun+A3sg+P1pl+Nom	6
+
+tiðimiz
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Nom	3
+
+mamýzdý
+Verb+Pos^DB+Noun+Inf2+A3sg+P1pl+Nom^DB+Verb+Zero+Past+A3sg	1
+
+yuz
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1pl	1
+
+memiz
+Verb+Pos^DB+Noun+Inf2+A3sg+P1pl+Nom	1
+
+laþmýþ
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Narr+A3sg	1
+
+duk
+Verb+Pos+Past+A1pl	1
+
+cinin
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Gen	9
+
+nacaðýný
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	6
+
+nmayacaktýr
+Verb^DB+Verb+Pass+Neg+Fut+Cop+A3sg	1
+
+irse
+Verb+Pos+Aor+Cond+A3sg	2
+
+sin
+Verb+Pos+Imp+A3sg	2
+
+icilerimiz
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+P1pl+Nom	1
+
+icilerin
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+Pnon+Gen	2
+
+luluk
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+
+ecektir
+Verb+Pos+Fut+Cop+A3sg	1
+
+ýyorsa
+Verb+Pos+Prog1+Cond+A3sg	2
+
+mize
+Noun+A3sg+P1pl+Dat	1
+
+týrdýðýmýz
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+larýmýzýn
+Noun+A3pl+P1pl+Gen	1
+
+dürmeye
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+eceðiz
+Verb+Pos+Fut+A1pl	5
+
+u'ndaki
+Noun+Prop+A3sg+P3sg+Loc^DB+Adj+Rel	4
+
+leri'nde
+Noun+Prop+A3pl+P3sg+Loc	3
+
+üyle
+Noun+A3sg+P3sg+Ins	2
+
+ýlacaðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	4
+
+acaklarý
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3pl+Nom	2
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Nom	1
+
+incisiyiz
+Num+Ord^DB+Noun+Zero+A3sg+P3sg+Nom^DB+Verb+Zero+Pres+A1pl	1
+
+dýktan
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+laþmamýzda
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+P1pl+Loc	1
+
+cularýnýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+P3sg+Gen	2
+
+ttýðýný
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+culardan
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Abl	1
+
+narak
+Verb^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	4
+
+cularýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Gen	5
+
+u'nda
+Noun+Prop+A3sg+P3sg+Loc	21
+Non+Prop+A3sg+P3sg+Loc	1
+
+incisi
+Num+Ord^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+likleri'nden
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3pl+P3sg+Abl	1
+
+kýný
+Noun+A3sg+P3sg+Acc	1
+
+emedi
+Verb^DB+Verb+AbleNeg+Neg+Past+A3sg	3
+
+'dan
+Noun+Prop+A3sg+Pnon+Abl	11
+
+incisiyle
+Num+Ord^DB+Noun+Zero+A3sg+P3sg+Ins	1
+
+laþacak
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Fut+A3sg	3
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Adj+FutPart	1
+
+leþtirdiði
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+meyi
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	10
+
+malarýnýn
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Gen	2
+Verb+Pos^DB+Noun+Inf2+A3pl+P3pl+Gen	1
+
+lanacaðý
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+melerin
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Gen	1
+
+lanmasýnýn
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	1
+
+yýþa
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Dat	1
+
+leþmesi
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+cunun
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Gen	3
+
+ulacaðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+luðu'nun
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Gen	1
+
+su'nun
+Noun+Prop+A3sg+P3sg+Gen	1
+
+nýncaya
+Verb^DB+Verb+Pass+Pos^DB+Adverb+When+Dat	2
+
+ilmesinin
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	3
+
+'nda
+Noun+Prop+A3sg+P2sg+Loc	3
+Noun+Prop+A3sg+P3sg+Loc	2
+Noun+Prop+A3sg+Pnon+Loc	2
+
+si'ndeki
+Noun+Prop+A3sg+P3sg+Loc^DB+Adj+Rel	2
+
+amayarak
+Verb^DB+Verb+AbleNeg+Neg^DB+Adverb+ByDoingSo	1
+
+ýnca
+Verb+Pos^DB+Adverb+When	3
+
+týrýlýnca
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adverb+When	1
+
+ücüden
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+lüðü'ne
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Dat	3
+
+derek
+Verb+Pos^DB+Adverb+ByDoingSo	1
+
+týrýlýrken
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Aor+A3sg^DB+Adverb+While	1
+
+ýlamadý
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg+Past+A3sg	1
+
+mede
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Loc	3
+
+ciyle
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Ins	1
+
+'na
+Noun+Prop+A3sg+P3sg+Dat	1
+
+melerini
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Acc	1
+
+aracaktýr
+Verb^DB+Verb+Caus+Pos+Fut+Cop+A3sg	1
+
+lýðý'ný
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Acc	3
+
+tikten
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+ildiðini
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	12
+
+yýþýndan
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Abl	1
+
+landýðýný
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+nmasýnda
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Loc	1
+
+arý
+Noun+A3pl+Pnon+Acc	1
+Noun+A3pl+P3sg+Nom	2
+
+nlarla
+Pron+A3pl+Pnon+Ins	3
+
+nlara
+Pron+A3pl+Pnon+Dat	2
+
+çilerin
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Gen	1
+
+luklara
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Dat	1
+
+ulmaya
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+çilere
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Dat	1
+
+ýlmadýðýný
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+'nun
+Noun+Prop+A3sg+Pnon+Gen	9
+
+aracaðýný
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+luðu'nu
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Acc	1
+
+ýrmýþtý
+Verb^DB+Verb+Caus+Pos+Narr+Past+A3sg	1
+
+'yu
+Noun+Prop+A3sg+Pnon+Acc	2
+
+erinin
+Noun+A3pl+P3pl+Gen	1
+Noun+A3pl+P3sg+Gen	5
+
+luklarýný
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3pl+Acc	1
+
+luklarý
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Acc	1
+
+lüðe
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Dat	1
+
+arabilir
+Verb^DB+Verb+Caus^DB+Verb+Able+Pos+Aor+A3sg	1
+
+lýdýr
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	2
+
+madým
+Verb+Neg+Past+A1sg	1
+
+ 54
+Num+Ratio	1
+
+muþtum
+Verb+Pos+Narr+Past+A1sg	1
+
+saydý
+Verb+Pos+Desr+Past+A3sg	1
+
+ur
+Verb+Pos+Aor+A3sg	5
+
+ydu
+Ques+Past+A3sg	1
+
+ümüzdeki
+Noun+A3sg+P1pl+Loc^DB+Adj+Rel	3
+
+lmasý
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	3
+
+ndirirken
+Verb^DB+Verb+Caus+Pos+Aor+A3sg^DB+Adverb+While	2
+
+tilen
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	4
+
+emem
+Verb^DB+Verb+AbleNeg+Neg+Aor+A1sg	1
+
+ýrýz
+Verb+Pos+Aor+A1pl	1
+
+yorsunuz
+Verb+Pos+Prog1+A2pl	1
+
+týrmayýn
+Verb^DB+Verb+Caus+Neg+Imp+A2pl	1
+
+düðünüz
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P2pl+Nom	1
+
+dirilmesi
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	3
+
+dük
+Verb+Pos+Past+A1pl	1
+
+medik
+Verb+Neg+Past+A1pl	1
+
+yýþ
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Nom	1
+
+ýlmasýdýr
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+malarýnda
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Loc	1
+
+turduk
+Verb^DB+Verb+Caus+Pos+Past+A1pl	1
+
+ýndý
+Verb^DB+Verb+Pass+Pos+Past+A3sg	7
+
+ülüp
+Verb^DB+Verb+Pass+Pos^DB+Adverb+AfterDoingSo	1
+
+ýlmadan
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Abl	1
+
+iyormuþuz
+Verb+Pos+Prog1+Narr+A1pl	1
+
+durabilecek
+Verb^DB+Verb+Caus^DB+Verb+Able+Pos+Fut+A3sg	1
+
+yabilmesini
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+yorum
+Verb+Pos+Prog1+A1sg	1
+
+uluþundan
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+P3sg+Abl	1
+
+nlarýn
+Pron+A3pl+Pnon+Gen	3
+
+ýnmadan
+Verb^DB+Verb+Pass+Pos^DB+Adverb+WithoutHavingDone	2
+
+nün
+Noun+A3sg+P3sg+Gen	1
+
+'nün
+Noun+Prop+A3sg+Pnon+Gen	5
+
+sunuz
+Ques+Pres+A2pl	3
+
+lerimiz
+Noun+A3pl+P1pl+Nom	3
+
+imden
+Adj^DB+Noun+Zero+A3sg+P1sg+Abl	1
+
+düðünü
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	5
+
+ça
+Adj^DB+Noun+Zero+A3sg+Pnon^DB+Adverb+Ly	1
+Noun+A3sg+Pnon^DB+Adverb+Ly	1
+
+unuyor
+Verb^DB+Verb+Pass+Pos+Prog1+A3sg	5
+
+üþlü
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Nom^DB+Adj+With	2
+
+liklerinin
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Gen	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Gen	6
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Gen	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3pl+Gen	1
+
+amadý
+Verb^DB+Verb+AbleNeg+Neg+Past+A3sg	2
+
+lýlarýn
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Gen	1
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Gen	2
+
+malarda
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Loc	3
+
+dürülmesinin
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	1
+
+unmasýnýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	1
+
+ünme
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+lýlarýyla
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+P3sg+Ins	1
+
+ünmeyi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+tmak
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+unacaðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Acc	2
+
+mayan
+Verb+Neg^DB+Adj+PresPart	7
+
+cýlara
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Dat	2
+
+necek
+Verb^DB+Verb+Pass+Pos+Fut+A3sg	2
+
+eceðim
+Verb+Pos+Fut+A1sg	4
+
+ttüðü
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+mama
+Verb+Neg^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+tmemesini
+Verb+Neg^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+üþlerine
+Verb+Pos^DB+Noun+Inf3+A3pl+P3pl+Dat	1
+
+desin
+Noun+A3sg+Pnon+Loc^DB+Verb+Zero+Pres+A2sg	1
+
+san
+Verb+Pos+Desr+A2sg	1
+
+ülmediði
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+ü'ne
+Noun+Prop+A3sg+P3sg+Dat	3
+
+imle
+Pron+A1pl+Pnon+Gen+Ins	1
+
+ilmeyeceðiz
+Verb^DB+Verb+Pass+Neg+Fut+A1pl	1
+
+diðimizi
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Acc	1
+
+yerek
+Verb+Pos^DB+Adverb+ByDoingSo	5
+
+enleri
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Acc	1
+
+meyeceklerini
+Verb+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3pl+Acc	1
+
+dýrarak
+Verb^DB+Verb+Caus+Pos^DB+Adverb+ByDoingSo	1
+
+sunun
+Noun+A3sg+P3sg+Gen	6
+
+lerindeki
+Noun+A3pl+P3sg+Loc^DB+Adj+Rel	5
+
+tmeye
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+suna
+Noun+A3sg+P3sg+Dat	3
+
+ulan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	4
+
+mesinin
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	6
+
+suzluk
+Noun+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+
+lýlýðýn
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Gen	1
+
+týrdýðý
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+dýrýlarak
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	1
+
+ciliklerine
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Dat	1
+
+tmeleri
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3pl+P3pl+Nom	1
+
+ýnan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart	17
+
+maktadýrlar
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Loc^DB+Verb+Zero+Pres+Cop+A3pl	1
+
+nildi
+Verb^DB+Verb+Pass^DB+Verb+Pass+Pos+Past+A3sg	10
+
+lýðýna
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Dat	3
+
+nanlarýn
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Gen	1
+
+i'nden
+Noun+Prop+A3sg+P3sg+Abl	2
+
+medi
+Verb+Neg+Past+A3sg	3
+
+ndýðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	6
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	2
+
+ýnýp
+Verb^DB+Verb+Pass+Pos^DB+Adverb+AfterDoingSo	2
+
+iþte
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Loc	1
+
+nýþa
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+Pnon+Dat	6
+
+meli
+Verb+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom^DB+Adj+With	1
+
+leþtirilmeyecek
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become^DB+Verb+Caus^DB+Verb+Pass+Neg+Fut+A3sg	1
+
+cýlarýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Gen	5
+
+liklerin
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Gen	2
+
+tme
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+arýlan
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	2
+
+artýlan
+Verb^DB+Verb+Caus^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	9
+
+ndikleri
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	1
+
+tirildiði
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+tüðü
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+artýlacaðýnýn
+Verb^DB+Verb+Caus^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+artýldýðý
+Verb^DB+Verb+Caus^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+artýldýktan
+Verb^DB+Verb+Caus^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+cýlarýnýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+P3sg+Gen	3
+
+liklere
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Dat	1
+
+duklarýný
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	3
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Acc	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	1
+
+ündeki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	2
+
+yabilecek
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart	1
+
+abileceði
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+artýlmasýndan
+Verb^DB+Verb+Caus^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Abl	1
+
+miyorlar
+Verb+Neg+Prog1+A3pl	1
+
+ndiriliyor
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Prog1+A3sg	1
+
+lükleri
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3pl+Nom	1
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Nom	1
+
+ilecek
+Verb^DB+Verb+Pass+Pos+Fut+A3sg	3
+
+artýlacak
+Verb^DB+Verb+Caus^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+FutPart	1
+
+sundaki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	1
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc^DB+Adj+Rel	1
+
+ýlmasýna
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	2
+
+ecekte
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Loc	2
+
+ülmektedir
+Verb^DB+Verb+Pass+Pos+Prog2+Cop+A3sg	1
+
+e 0.20
+Num+Percent	1
+
+leþti
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Past+A3sg	2
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Past+A3sg	1
+
+laþacaðýný
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+nebileceðini
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ýrmýþtýr
+Verb^DB+Verb+Caus+Pos+Narr+Cop+A3sg	1
+
+irmeye
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+lardaki
+Noun+A3pl+Pnon+Loc^DB+Adj+Rel	2
+
+yacaktýr
+Verb+Pos+Fut+Cop+A3sg	2
+
+ýþýna
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Dat	2
+
+ýnmasýnýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	5
+
+ýþýndan
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Abl	2
+
+turulan
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+u'ndan
+Noun+Prop+A3sg+P3sg+Abl	5
+
+ýþa
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Dat	4
+
+arýlacak
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Fut+A3sg	2
+
+larý'nýn
+Noun+Prop+A3pl+P3sg+Gen	1
+
+ýlabileceðini
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+lüðü'nün
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P2sg+Gen	1
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Gen	1
+
+unduðu
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+uluþlarýna
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3pl+P3pl+Dat	1
+
+larca
+Noun+A3pl+Pnon^DB+Adverb+Ly	1
+
+ýlmadýðý
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+e 1.52
+Num+Percent	3
+
+cýlarý
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+P3sg+Nom	2
+
+yýþýna
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Dat	1
+
+malarýn
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Gen	7
+
+lülüklerini
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3pl+Acc	1
+
+çuluk
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+
+tilmemesi
+Verb^DB+Verb+Caus^DB+Verb+Pass+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+lýklý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom^DB+Adj+With	1
+
+ilmiþtir
+Verb^DB+Verb+Pass+Pos+Narr+Cop+A3sg	3
+
+ýlacaktýr
+Verb^DB+Verb+Pass+Pos+Fut+Cop+A3sg	2
+
+neceði
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+ýþla
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Ins	9
+
+iþle
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Ins	1
+
+nýþta
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+Pnon+Loc	2
+
+e 1.41
+Num+Percent	1
+
+e 1.88
+Num+Percent	1
+
+dular
+Verb+Pos+Past+A3pl	3
+
+iþe
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Dat	5
+
+yýnca
+Verb+Pos^DB+Adverb+When	1
+
+üreceðini
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+dirmesi
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+týktan
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	3
+
+zde 20
+Num+Percent	1
+
+müþtü
+Verb+Pos+Narr+Past+A3sg	3
+
+lanma
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+tirecek
+Verb^DB+Verb+Caus+Pos+Fut+A3sg	1
+
+lýðý'ndan
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Abl	1
+
+uþun
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Gen	1
+
+üne alýndýðýný
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ýndýðýný
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	2
+
+arýnýn
+Noun+A3pl+P3sg+Gen	1
+
+tacaðý
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+'teki
+Noun+Prop+A3sg+Pnon+Loc^DB+Adj+Rel	2
+
+liklerden
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Abl	1
+
+u'nun
+Noun+Prop+A3sg+P3sg+Gen	4
+
+ýlýþýnda
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+P3sg+Loc	1
+
+e 0.06
+Num+Percent	1
+
+nýþýnda
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+P3sg+Loc	1
+
+týlýrken
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Aor+A3sg^DB+Adverb+While	2
+
+dýrýlmasý
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ýlmasýnýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	3
+
+üldüðünü
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	2
+
+ýlýp
+Verb^DB+Verb+Pass+Pos^DB+Adverb+AfterDoingSo	1
+
+ýlamayacaðýnýn
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+anýnýn
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+luðun
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Gen	1
+
+artmaya
+Verb^DB+Verb+Caus^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+üþlere
+Verb+Pos^DB+Noun+Inf3+A3pl+Pnon+Dat	1
+
+anlarýn
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Gen	2
+
+lardýr
+Noun+A3pl+Pnon+Nom^DB+Adverb+Zero	1
+
+yýþýnýn
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Gen	1
+
+ýcýdýr
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+tirme
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+diðine
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	2
+
+lerdeki
+Noun+A3pl+Pnon+Loc^DB+Adj+Rel	1
+
+lanamayacaðýna
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire^DB+Verb+AbleNeg+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+yabildiðimiz
+Verb^DB+Verb+Able+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+e 3.89
+Num+Percent	2
+
+ýndýðýnda
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Loc	1
+
+e 5.47
+Num+Percent	2
+
+ýþýn
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Gen	2
+
+arken
+Verb+Pos+Aor+A3sg^DB+Adverb+While	4
+
+e 4.66
+Num+Percent	1
+
+e 2.54
+Num+Percent	1
+
+e 3.98
+Num+Percent	1
+
+'ü
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Acc	1
+Noun+Prop+A3sg+Pnon+Acc	1
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+durmayý
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+týldýðý
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+ü'nün
+Noun+Prop+A3sg+P3sg+Gen	4
+
+tuðunu
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	4
+
+laþmasýnda
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+P3sg+Loc	2
+
+amadýðý
+Verb^DB+Verb+AbleNeg+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+turdu
+Verb^DB+Verb+Caus+Pos+Past+A3sg	3
+
+uþta
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Loc	1
+
+tmeden
+Verb^DB+Verb+Caus+Pos^DB+Adverb+WithoutHavingDone	1
+
+uþla
+Verb+Pos^DB+Noun+Inf3+A3sg+Pnon+Ins	2
+
+landýrdý
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire^DB+Verb+Caus+Pos+Past+A3sg	2
+
+laþma
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	5
+Noun+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	2
+
+lüðüyle
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Ins	1
+
+dürdü
+Verb^DB+Verb+Caus+Pos+Past+A3sg	3
+
+ileceði
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+tirdiðini
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+namadýklarýný
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	1
+
+tiremediklerini
+Verb^DB+Verb+Caus^DB+Verb+AbleNeg+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+
+ydik
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A1pl	1
+
+sunu
+Noun+A3sg+P3sg+Acc	3
+
+ydük
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A1pl	1
+
+ulduk
+Verb^DB+Verb+Pass+Pos+Past+A1pl	1
+
+ndirdi
+Verb^DB+Verb+Caus+Pos+Past+A3sg	2
+
+üncü
+Num+Ord	1
+
+cilerimiz
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+P1pl+Nom	1
+
+tirilecek
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Fut+A3sg	1
+
+iren
+Verb^DB+Verb+Caus+Pos^DB+Adj+PresPart	4
+
+ncisi
+Num+Ord^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+liklerini
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3pl+Acc	1
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Acc	1
+
+dürüyorlar
+Verb^DB+Verb+Caus+Pos+Prog1+A3pl	1
+
+ýlmaya
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	2
+
+amayan
+Verb^DB+Verb+AbleNeg+Neg^DB+Adj+PresPart	3
+
+sa
+Verb+Pos+Desr+A3sg	1
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Cond+A3sg	5
+
+acaklar
+Verb+Pos+Fut+A3pl	3
+
+laþmanýn
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Gen	3
+
+'undan
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Abl	1
+
+lýrken
+Verb^DB+Verb+Pass+Pos+Aor+A3sg^DB+Adverb+While	1
+
+þti
+Verb^DB+Verb+Recip+Pos+Past+A3sg	3
+
+liyi
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+laþan
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Adj+PresPart	1
+
+nmekten
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Abl	1
+
+mesinden
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Abl	3
+
+'ünü
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Acc	3
+
+'sýný
+Num+Card^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+þmede
+Verb^DB+Verb+Recip+Pos^DB+Noun+Inf2+A3sg+Pnon+Loc	2
+
+eriyle
+Noun+A3pl+P3sg+Ins	1
+
+þmelerde
+Verb^DB+Verb+Recip+Pos^DB+Noun+Inf2+A3pl+Pnon+Loc	2
+
+þmeden
+Verb^DB+Verb+Recip+Pos^DB+Adverb+WithoutHavingDone	1
+
+lýlar
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Nom	3
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Nom	1
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Nom	1
+
+þen
+Verb^DB+Verb+Recip+Pos^DB+Adj+PresPart	1
+
+þme
+Verb^DB+Verb+Recip+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+ulmayan
+Verb^DB+Verb+Pass+Neg^DB+Adj+PresPart	1
+
+laþmayý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+luklardan
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Abl	3
+
+tirip
+Verb^DB+Verb+Caus+Pos^DB+Adverb+AfterDoingSo	1
+
+mediklerini
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Acc	1
+
+mýyordu
+Verb+Neg+Prog1+Past+A3sg	2
+
+meyenlerden
+Verb+Neg^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Abl	1
+
+ararak
+Verb^DB+Verb+Caus+Pos^DB+Adverb+ByDoingSo	1
+
+likleriyle
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3pl+Ins	1
+
+ýyorduk
+Verb+Pos+Prog1+Past+A1pl	1
+
+undayýz
+Adj^DB+Noun+Zero+A3sg+P3sg+Loc^DB+Verb+Zero+Pres+A1pl	1
+
+lýkla
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Ins	2
+
+luðunda
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc	1
+
+ndaki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	1
+
+yeceðini
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+erlerse
+Verb+Pos+Aor+A3pl+Cond	1
+
+eceklerini
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3pl+Acc	2
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+ýþýnda
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Loc	1
+
+mamýþlardý
+Verb+Neg+Narr+A3pl+Past	1
+
+turucu
+Verb^DB+Verb+Caus+Pos^DB+Adj+Agt	1
+
+cýlýðý
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	1
+
+üldüðü
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+dýðýnýn
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+nmesinden
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Abl	1
+
+ýnmak
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+nmezken
+Verb^DB+Verb+Pass+Neg+Aor^DB+Adverb+While	1
+
+'nü
+Noun+Prop+A3sg+Pnon+Acc	1
+
+suzdum
+Noun+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A1sg	1
+
+nmam
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P1sg+Nom	1
+
+týðým
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1sg	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1sg+Nom	2
+
+yum
+Noun+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A1sg	1
+
+masaydým
+Verb+Neg+Desr+Past+A1sg	1
+
+icisi
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+irmedik
+Verb^DB+Verb+Caus+Neg+Past+A1pl	1
+
+lýlarý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Acc	1
+
+irmeyerek
+Verb^DB+Verb+Caus+Neg^DB+Adverb+ByDoingSo	1
+
+týk
+Verb+Pos+Past+A1pl	5
+
+suyla
+Noun+A3sg+P3sg+Ins	2
+
+ebilecek
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart	1
+
+ilmediðini
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+culara
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Dat	3
+
+týlar
+Verb+Pos+Past+A3pl	4
+
+abilirdik
+Verb^DB+Verb+Able+Pos+Aor+Past+A1pl	1
+
+abilirdi
+Verb^DB+Verb+Able+Pos+Aor+Past+A3sg	1
+
+laþmadan
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Abl	1
+
+acaklarýna
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Dat	1
+
+irdik
+Verb+Pos+Aor+Past+A1pl	1
+
+acaðýmýza
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P1pl+Dat	1
+
+laþmada
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+Pnon+Loc	3
+
+yorsam
+Verb+Pos+Prog1+Cond+A1sg	1
+
+dum
+Verb+Pos+Past+A1sg	2
+
+lýklarýna
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Dat	2
+
+tmayý
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Acc	1
+
+duklarý
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Nom	1
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3pl+Nom	1
+
+cular
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Nom	4
+
+liðinde
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc	4
+
+lýklarýný
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Acc	1
+
+dürecek
+Verb^DB+Verb+Caus+Pos+Fut+A3sg	1
+
+larý'nda
+Noun+Prop+A3pl+P3sg+Loc	3
+
+ýþýmýzý
+Verb+Pos^DB+Noun+Inf3+A3sg+P1pl+Acc	2
+
+dürmek
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	2
+
+yacaðýz
+Verb+Pos+Fut+A1pl	1
+
+ilmez
+Verb^DB+Verb+Pass+Neg+Aor+A3sg	1
+
+yeceðine
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+laþmamýz
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+P1pl+Nom	1
+
+larýmýzý
+Noun+A3pl+P1pl+Acc	2
+
+acaðýna
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+yýþlarý
+Verb+Pos^DB+Noun+Inf3+A3pl+P3sg+Nom	1
+
+durup
+Verb^DB+Verb+Caus+Pos^DB+Adverb+AfterDoingSo	2
+
+ttikleri
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	1
+
+lüler
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+A3pl	1
+
+nmamasý
+Verb^DB+Verb+Pass+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	2
+
+lilerinin
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+P3sg+Gen	1
+
+ildiðinin
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+ýnmýþtý
+Verb^DB+Verb+Pass+Pos+Narr+Past+A3sg	1
+
+ülmüþtü
+Verb^DB+Verb+Pass+Pos+Narr+Past+A3sg	1
+
+ebilmek
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+likleri'ni
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3pl+P3sg+Acc	1
+
+cýlýklarýný
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Acc	1
+
+lerince
+Noun+A3pl+P3sg^DB+Adverb+Ly	2
+
+nabilecek
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Adj+FutPart	1
+
+týný
+Noun+A3sg+P3sg+Acc	1
+
+ebileceðini
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+tý'nda
+Noun+Prop+A3sg+P3sg+Loc	2
+
+ebilmesini
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+tacaðýmýz
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+abilmesini
+Verb^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+müz
+Noun+A3sg+P1pl+Nom	1
+
+abildiðince
+Verb^DB+Verb+Able+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg^DB+Adverb+Ly	1
+
+ýmýzla
+Noun+A3sg+P1pl+Ins	1
+
+adýr
+Adj^DB+Noun+Zero+A3sg+Pnon+Dat^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+týn
+Noun+A3sg+Pnon+Gen	1
+Verb^DB+Verb+Caus+Pos+Imp+A2pl	1
+
+'li
+Num+Card^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With	1
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With	3
+
+yacaðý
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+00
+Num+Range	1
+
+iþinde
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Loc	3
+
+unacaklar
+Verb^DB+Verb+Pass+Pos+Fut+A3pl	1
+
+tüðünü
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+icilerinin
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+P3sg+Gen	1
+
+týracaðýný
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+unduðunu
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+laþmasý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+unmayan
+Verb^DB+Verb+Pass+Neg^DB+Adj+PresPart	1
+
+lilerde
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Loc	1
+
+dürdüklerini
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Acc	1
+
+mayacaðýna
+Verb+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+dirdik
+Verb^DB+Verb+Caus+Pos+Past+A1pl	2
+
+cuyu
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Acc	1
+
+malara
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Dat	1
+
+ý'ndaki
+Noun+Prop+A3sg+P3sg+Loc^DB+Adj+Rel	1
+
+irdiðini
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+duðumuz
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+emeyeceðimiz
+Verb^DB+Verb+AbleNeg+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+malarýna
+Verb+Pos^DB+Noun+Inf2+A3pl+P3sg+Dat	1
+
+umuz
+Noun+A3sg+P1pl+Nom	1
+
+luðuna
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Dat	2
+
+ýlanlar
+Verb^DB+Verb+Pass+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Nom	1
+
+icilerle
+Verb+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+Pnon+Ins	1
+
+ülmelidir
+Verb^DB+Verb+Pass+Pos+Neces+Cop+A3sg	1
+
+masaydý
+Verb+Neg+Desr+Past+A3sg	1
+
+ýlamazdý
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg+Aor+Past+A3sg	1
+
+umun
+Noun+A3sg+P1sg+Gen	1
+
+düm
+Verb+Pos+Past+A1sg	1
+
+'ne
+Noun+Prop+A3sg+Pnon+Dat	1
+Noun+Prop+A3sg+P3sg+Dat	2
+
+tirmek
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	2
+
+sü
+Noun+A3sg+P3sg+Nom	4
+
+dayken
+Noun+A3sg+Pnon+Loc^DB+Verb+Zero^DB+Adverb+While	1
+
+sak
+Verb+Pos+Desr+A1pl	1
+
+lacaktýk
+Verb^DB+Verb+Pass+Pos+Fut+Past+A1pl	1
+
+üleceðini
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+týlacaðýný
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+mekle
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Ins	1
+
+miyoruz
+Verb+Neg+Prog1+A1pl	2
+
+yebileceðimiz
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+lendirmek
+Noun+A3sg+Pnon+Nom^DB+Verb+Acquire^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+laþmalarýnda
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Noun+Inf2+A3pl+P3sg+Loc	1
+
+ticilere
+Verb^DB+Verb+Caus+Pos^DB+Adj+Agt^DB+Noun+Zero+A3pl+Pnon+Dat	1
+
+irilmiþtir
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Narr+Cop+A3sg	1
+
+ýnmaktadýr
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Loc^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+up
+Verb+Pos^DB+Adverb+AfterDoingSo	1
+
+mektedir
+Verb+Pos+Prog2+Cop+A3sg	3
+
+dirilerek
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	1
+
+yenlerin
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Gen	1
+
+nacaðý
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+laþacaðý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+mamýþ
+Verb+Neg^DB+Adj+Zero	1
+
+uyoruz
+Verb+Pos+Prog1+A1pl	2
+
+malýyýz
+Verb+Pos+Neces+A1pl	2
+
+abildik
+Verb^DB+Verb+Able+Pos+Past+A1pl	1
+
+mýzda
+Adj^DB+Noun+Zero+A3sg+P1pl+Loc	1
+
+dukça
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon^DB+Adverb+Ly	3
+Verb+Pos^DB+Adverb+AsLongAs	1
+
+arým
+Verb+Pos+Aor+A1sg	1
+
+týðýna
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+üyorum
+Verb+Pos+Prog1+A1sg	5
+
+ydiler
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3pl	1
+
+sýzdý
+Noun+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	1
+
+emeyecek
+Verb^DB+Verb+AbleNeg+Neg+Fut+A3sg	1
+
+amayacaklar
+Verb^DB+Verb+AbleNeg+Neg+Fut+A3pl	1
+
+mayacaðýnýn
+Verb+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Gen	2
+
+cü
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom	2
+
+nmasýna
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	5
+
+durmak
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+mayarak
+Verb+Neg^DB+Adverb+ByDoingSo	1
+
+si'ne
+Noun+Prop+A3sg+P3sg+Dat	4
+
+nmak
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+nemeyen
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg^DB+Adj+PresPart	2
+
+dürülüyor
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Prog1+A3sg	1
+
+lerimizi
+Noun+A3pl+P1pl+Acc	2
+
+ýnacak
+Verb^DB+Verb+Pass+Pos+Fut+A3sg	3
+
+ýnmasýyla
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+kýndaki
+Noun+A3sg+P3sg+Loc^DB+Adj+Rel	2
+
+nmesine
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	2
+
+madýðýna
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+ildiðinden
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Abl	1
+
+ýldýklarýný
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+
+niyordu
+Verb^DB+Verb+Pass+Pos+Prog1+Past+A3sg	1
+
+dýrdýklarý
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	1
+
+inmesi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	3
+
+cýlýðý'na
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Dat	2
+
+mýza
+Noun+A3sg+P1pl+Dat	1
+
+mayýp
+Verb+Neg^DB+Adverb+AfterDoingSo	1
+
+inebilmesi
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ilmemesi
+Verb^DB+Verb+Pass+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ttýklarýný
+Verb^DB+Verb+Caus+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+
+dirmeyecek
+Verb^DB+Verb+Caus+Neg^DB+Adj+FutPart	1
+
+dirmeyeceklerini
+Verb^DB+Verb+Caus+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3pl+Acc	1
+
+ýyorlardý
+Verb+Pos+Prog1+A3pl+Past	1
+
+ýma
+Noun+A3sg+P1sg+Dat	2
+
+rdi
+Verb+Pos+Aor+Past+A3sg	1
+
+amýyorum
+Verb^DB+Verb+AbleNeg+Neg+Prog1+A1sg	1
+
+ýmýn
+Noun+A3sg+P1sg+Gen	1
+
+dýysam
+Verb+Pos+Past+Cond+A1sg	1
+
+dirmeyeceðim
+Verb^DB+Verb+Caus+Neg+Fut+A1sg	1
+
+mayýn
+Verb+Neg+Imp+A2pl	1
+
+unmasý
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ýlýþ
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf3+A3sg+Pnon+Nom	1
+
+su'na
+Noun+Prop+A3sg+P3sg+Dat	1
+
+u'na
+Noun+Prop+A3sg+P3sg+Dat	3
+
+ndirmeniz
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P2pl+Nom	1
+
+dadýr
+Noun+A3sg+Pnon+Loc^DB+Verb+Zero+Pres+Cop+A3sg	2
+
+mizde
+Noun+A3sg+P1pl+Loc	1
+
+mamýz
+Verb+Pos^DB+Noun+Inf2+A3sg+P1pl+Nom	2
+
+makta
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Loc	1
+
+mamak
+Verb+Neg^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+maktýr
+Verb+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+mayalým
+Verb+Neg+Opt+A1pl	1
+
+alým
+Verb+Pos+Opt+A1pl	1
+
+lüleri
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+P3sg+Nom	1
+
+uyorlar
+Verb+Pos+Prog1+A3pl	1
+
+ümüze
+Noun+A3sg+P1pl+Dat	1
+
+ýmdaki
+Noun+A3sg+P1sg+Loc^DB+Adj+Rel	1
+
+turuyor
+Verb^DB+Verb+Caus+Pos+Prog1+A3sg	1
+
+masýndan
+Verb+Pos^DB+Noun+Inf2+A3sg+P3sg+Abl	3
+
+yunda
+Noun+A3sg+P3sg+Loc	5
+
+iniz
+Noun+A3sg+P2pl+Nom	1
+
+yunun
+Noun+A3sg+P3sg+Gen	5
+
+lýðýmýzca
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P1pl^DB+Adverb+Ly	2
+
+sý'na
+Noun+Prop+A3sg+P3sg+Dat	2
+
+dirmiþtir
+Verb^DB+Verb+Caus+Pos+Narr+Cop+A3sg	1
+
+liðinizce
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P2pl^DB+Adverb+Ly	1
+
+lýðý'na
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Dat	2
+
+ýþma
+Verb^DB+Verb+Recip+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+lýktan
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Abl	1
+
+tacaðýný
+Verb^DB+Verb+Caus+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+larý'na
+Noun+Prop+A3pl+P3sg+Dat	1
+
+týrýlan
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	2
+
+liliðini
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	1
+
+cilere
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Dat	2
+
+luklarla
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Ins	1
+
+laþýldýðýný
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+luklarýn
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Gen	1
+
+ýlmasýyla
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+uyorum
+Verb+Pos+Prog1+A1sg	1
+
+abileceðiz
+Verb^DB+Verb+Able+Pos+Fut+A1pl	1
+
+ýlmasýnda
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Loc	1
+
+düðümüzü
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Acc	1
+
+mýzdan
+Noun+A3sg+P1pl+Abl	1
+
+ýnmasýný
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	2
+
+abileceðini
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ilebilmiþ
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Adj+Zero	1
+
+ulmamasý
+Verb^DB+Verb+Pass+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+dirilmesiyle
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+durulmasý
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+dedir
+Noun+A3sg+Pnon+Loc^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+ýnmýþ
+Verb^DB+Verb+Pass+Pos+Narr+A3sg	1
+
+irilmiþti
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Narr+Past+A3sg	1
+
+müþler
+Verb+Pos+Narr+A3pl	1
+
+irildi
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos+Past+A3sg	1
+
+ýlmasýný
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	4
+
+mediðini
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	2
+
+ülmesi
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ýlsýn
+Verb^DB+Verb+Pass+Pos+Imp+A3sg	1
+
+üne alýndýðýnda
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Loc	1
+
+ulmasýna
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	4
+
+üyordu
+Verb+Pos+Prog1+Past+A3sg	1
+
+ilirler
+Verb^DB+Verb+Pass+Pos+Aor+A3pl	1
+
+ülmesinden
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Abl	1
+
+tülen
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+týlan
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PresPart	1
+
+lüðü'ndeki
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Loc^DB+Adj+Rel	1
+
+ttýrýyor
+Verb^DB+Verb+Caus^DB+Verb+Caus+Pos+Prog1+A3sg	2
+
+yemeyenler
+Verb^DB+Verb+AbleNeg+Neg^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Nom	1
+
+týldýðýný
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+medikleri
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	1
+
+ilemediklerinden
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Abl	1
+
+nmadýðýný
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+nmemesi
+Verb^DB+Verb+Pass+Neg^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+nmesiyle
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+ýnmasý
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	2
+
+sýzlýða
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Dat	1
+
+abildiðini
+Verb^DB+Verb+Able+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+sýzlýklar
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Adj+Without^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Nom	1
+
+nirse
+Verb^DB+Verb+Pass+Pos+Aor+Cond+A3sg	1
+
+ilebilir
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos+Aor+A3sg	2
+
+ndireceðiz
+Verb^DB+Verb+Caus+Pos+Fut+A1pl	1
+
+lýðý'nca
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg^DB+Adverb+Ly	1
+
+lýkta
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Loc	1
+
+lýk'ta
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+Pnon+Loc	1
+
+lýðýndaki
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc^DB+Adj+Rel	1
+
+týrma
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Nom	1
+
+ulmasý
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	5
+
+ulmasýnýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	2
+
+liliði
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Nom	1
+
+uldu
+Verb^DB+Verb+Pass+Pos+Past+A3sg	3
+
+emeyiz
+Verb^DB+Verb+AbleNeg+Neg+Aor+A1pl	1
+
+çýlýk
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom	1
+
+ebilsinler
+Verb^DB+Verb+Able+Pos+Imp+A3pl	1
+
+cýlýða
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Dat	1
+
+cýlýkta
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Loc	3
+
+ulduðunu
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+direrek
+Verb^DB+Verb+Caus+Pos^DB+Adverb+ByDoingSo	1
+
+çýlara
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Dat	1
+
+lanmasý
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Acquire+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+nýp
+Verb^DB+Verb+Pass+Pos^DB+Adverb+AfterDoingSo	1
+
+ularak
+Verb^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	1
+
+ileceðini
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+ildiðine
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+tarak
+Verb^DB+Verb+Caus+Pos^DB+Adverb+ByDoingSo	1
+
+lerimizde
+Noun+A3pl+P1pl+Loc	1
+
+muz
+Noun+A3sg+P1pl+Nom	1
+
+yebilecek
+Verb^DB+Verb+Able+Pos+Fut+A3sg	1
+
+sundan
+Noun+A3sg+P3sg+Abl	1
+
+ýndadýr
+Noun+A3sg+P3sg+Loc^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+sudur
+Noun+A3sg+P3sg+Nom^DB+Verb+Zero+Pres+Cop+A3sg	1
+
+arabilmemiz
+Verb^DB+Verb+Caus^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P1pl+Nom	1
+
+madýðýndan
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Abl	1
+
+ndiðimizi
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Acc	1
+
+arabileceðiz
+Verb^DB+Verb+Caus^DB+Verb+Able+Pos+Fut+A1pl	1
+
+inmelidir
+Verb^DB+Verb+Pass+Pos+Neces+Cop+A3sg	1
+
+nmiþse
+Verb^DB+Verb+Pass+Pos+Narr+Cond+A3sg	1
+
+yin
+Adj+Ques^DB+Noun+Zero+A3sg+Pnon+Gen	1
+
+eriz
+Verb+Pos+Aor+A1pl	1
+
+ebilir
+Verb^DB+Verb+Able+Pos+Aor+A3sg	1
+
+üldüðüne
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Dat	1
+
+ilmesinden
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Abl	1
+
+dirmeye
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Dat	1
+
+larýma
+Noun+A3pl+P1sg+Dat	1
+
+üne alarak
+Verb+Pos^DB+Adverb+ByDoingSo	1
+
+üþünü
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Acc	1
+
+acaklardýr
+Verb+Pos+Fut+A3pl+Cop	1
+
+ülebilir
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos+Aor+A3sg	3
+
+mamýza
+Verb+Pos^DB+Noun+Inf2+A3sg+P1pl+Dat	3
+
+arýz
+Verb+Pos+Aor+A1pl	3
+
+mayacaðýný
+Verb+Neg^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	1
+
+nmasýyla
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	2
+
+nýzý
+Noun+A3sg+P2pl+Acc	1
+
+ýlacaðýný
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Acc	2
+
+ilebilmesi
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+ülmek
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	3
+
+ilebileceði
+Verb^DB+Verb+Pass^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+ilmiyorsa
+Verb^DB+Verb+Pass+Neg+Prog1+Cond+A3sg	2
+
+liklerinde
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+P3sg+Loc	1
+
+ebileceði
+Verb^DB+Verb+Able+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+nýz
+Noun+A3sg+P2pl+Nom	1
+
+ümüzde
+Noun+A3sg+P1pl+Loc	3
+
+ndýktan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	2
+
+arsa
+Verb+Pos+Aor+Cond+A3sg	2
+
+nýr
+Verb^DB+Verb+Pass+Pos+Aor+A3sg	1
+
+tüp
+Verb^DB+Verb+Caus+Pos^DB+Adverb+AfterDoingSo	1
+
+'dakine
+Noun+Prop+A3sg+Pnon+Loc^DB+Adj+Rel^DB+Noun+Zero+A3sg+P2sg+Dat	1
+
+tmiþ
+Verb^DB+Verb+Caus+Pos+Narr+A3sg	1
+
+mýþlar
+Verb+Pos+Narr+A3pl	1
+
+eceðime
+Verb+Pos^DB+Adj+FutPart^DB+Noun+Zero+A3sg+P1sg+Dat	1
+
+diriyor
+Verb^DB+Verb+Caus+Pos+Prog1+A3sg	1
+
+masa
+Verb+Neg+Desr+A3sg	1
+
+mayýnca
+Verb+Neg^DB+Adverb+When	1
+
+ýyorsun
+Verb+Pos+Prog1+A2sg	1
+
+lulara
+Noun+Prop+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3pl+Pnon+Dat	1
+
+ime
+Noun+A3sg+P1sg+Dat	1
+
+çe
+Adj^DB+Noun+Zero+A3sg+Pnon^DB+Adverb+Ly	1
+
+çýya
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3sg+Pnon+Dat	1
+
+ce
+Pron+A1sg+Pnon^DB+Adverb+Ly	1
+
+anlardan
+Verb+Pos^DB+Adj+PresPart^DB+Noun+Zero+A3pl+Pnon+Abl	1
+
+lüm
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+P1sg+Nom	1
+
+mazsan
+Verb+Neg+Aor+Cond+A2sg	1
+
+miþler
+Verb+Pos+Narr+A3pl	1
+
+laþtým
+Adj^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Verb+Become+Pos+Past+A1sg	1
+
+müyordum
+Verb+Neg+Prog1+Past+A1sg	1
+
+malarýmla
+Verb+Pos^DB+Noun+Inf2+A3pl+P1sg+Ins	1
+
+lýktý
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+Pnon+Nom^DB+Verb+Zero+Past+A3sg	1
+
+madýðýmýz
+Verb+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P1pl+Nom	1
+
+amadým
+Verb^DB+Verb+AbleNeg+Neg+Past+A1sg	1
+
+3
+Num+Range	1
+
+ünüz
+Noun+A3sg+P2pl+Nom	1
+
+imkinden
+Pron+A1sg+Pnon+Gen^DB+Pron+Rel+Abl	1
+
+namaz
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg+Aor+A3sg	1
+
+çular
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Nom	1
+
+nemez
+Verb^DB+Verb+Pass^DB+Verb+AbleNeg+Neg+Aor+A3sg	1
+
+üþü
+Verb+Pos^DB+Noun+Inf3+A3sg+P3sg+Nom	1
+
+unca
+Verb+Pos^DB+Adverb+When	2
+
+miþken
+Verb^DB+Verb+Pass+Pos+Narr+A3sg^DB+Adverb+While	1
+
+ulmazlýðýnýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+NotState+Noun+A3sg+P3sg+Gen	1
+
+turulacak
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Adj+FutPart	2
+
+nerek
+Verb^DB+Verb+Pass+Pos^DB+Adverb+ByDoingSo	1
+
+u'nu
+Noun+Prop+A3sg+P3sg+Acc	2
+
+lýklarýn
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3pl+Pnon+Gen	1
+
+ürülmesiyle
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+ülmesine
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Dat	1
+
+ýðý'na
+Noun+A3sg+Pnon+Nom^DB+Noun+Prop+Ness+A3sg+P3sg+Dat	1
+
+unmadýðý
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	2
+
+ndirilmek
+Verb^DB+Verb+Caus^DB+Verb+Pass+Pos^DB+Noun+Inf1+A3sg+Pnon+Nom	1
+
+nmasýnýn
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Gen	1
+
+nmediði
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Acc	1
+
+ilmediði
+Verb^DB+Verb+Pass+Neg^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Nom	1
+
+e 3
+Num+Ratio	1
+
+e 2
+Num+Ratio	1
+
+malar
+Verb+Pos^DB+Noun+Inf2+A3pl+Pnon+Nom	1
+
+düðünün
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+nýrsa
+Verb^DB+Verb+Pass+Pos+Aor+Cond+A3sg	1
+
+ndirmenin
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+Pnon+Gen	1
+
+turdular
+Verb^DB+Verb+Caus+Pos+Past+A3pl	1
+
+madýlar
+Verb+Neg+Past+A3pl	1
+
+mediler
+Verb+Neg+Past+A3pl	1
+
+üþlerini
+Verb+Pos^DB+Noun+Inf3+A3pl+P3sg+Acc	1
+
+tmasýyla
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P3sg+Ins	1
+
+mizi
+Noun+A3sg+P1pl+Acc	1
+
+lüðünde
+Noun+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Loc	1
+
+ülecek
+Verb^DB+Verb+Pass+Pos^DB+Adj+FutPart	1
+
+dükleri
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3pl+P3sg+Nom	1
+
+uyorsunuz
+Verb+Pos+Prog1+A2pl	1
+
+muyorsunuz
+Verb+Neg+Prog1+A2pl	1
+
+mla
+Noun+A3sg+P1sg+Ins	1
+
+si'nden
+Noun+Prop+A3sg+P3sg+Abl	1
+
+zde 45
+Num+Percent	1
+
+ulduktan
+Verb^DB+Verb+Pass+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+Pnon+Abl	1
+
+luluðunu
+Noun+A3sg+Pnon+Nom^DB+Adj+With^DB+Noun+Zero+A3sg+Pnon+Nom^DB+Noun+Ness+A3sg+P3sg+Acc	1
+
+cularýna
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+P3sg+Dat	1
+
+emez
+Verb^DB+Verb+AbleNeg+Neg+Aor+A3sg	1
+
+ndirmesini
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+CULARI
+Noun+A3sg+Pnon+Nom^DB+Noun+Agt+A3pl+Pnon+Acc	1
+
+arsanýz
+Verb+Pos+Aor+Cond+A2pl	1
+
+rsýnýz
+Verb+Pos+Aor+A2pl	1
+
+ýlmadý
+Verb^DB+Verb+Pass+Neg+Past+A3sg	1
+
+irmesi
+Verb^DB+Verb+Caus+Pos^DB+Noun+Inf2+A3sg+P3sg+Nom	1
+
+týðýnýn
+Verb+Pos^DB+Adj+PastPart^DB+Noun+Zero+A3sg+P3sg+Gen	1
+
+ülmesini
+Verb^DB+Verb+Pass+Pos^DB+Noun+Inf2+A3sg+P3sg+Acc	1
+
+armadý
+Verb^DB+Verb+Caus+Neg+Past+A3sg	1
+

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5B6521F-C92E-4539-8BBB-C7CD7924813B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CTest</RootNamespace>
+    <AssemblyName>CTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="PC-KIMMO\baglac_turk.lex" />
+    <None Include="PC-KIMMO\baglac_turk2.lex" />
+    <None Include="PC-KIMMO\birlesikisim_turk.lex" />
+    <None Include="PC-KIMMO\birlesikisim_turk2.lex" />
+    <None Include="PC-KIMMO\birlisikisim_turk2.lex" />
+    <None Include="PC-KIMMO\deneme.lex" />
+    <None Include="PC-KIMMO\fiil_tdk.lex" />
+    <None Include="PC-KIMMO\fiil_tdk2.lex" />
+    <None Include="PC-KIMMO\fiil_turk.lex" />
+    <None Include="PC-KIMMO\fiil_turk2.lex" />
+    <None Include="PC-KIMMO\ilgec_turk.lex" />
+    <None Include="PC-KIMMO\ilgec_turk2.lex" />
+    <None Include="PC-KIMMO\ilyas1.recout" />
+    <None Include="PC-KIMMO\ilyas_num_turk2.lex" />
+    <None Include="PC-KIMMO\isaret_turk.lex" />
+    <None Include="PC-KIMMO\isimsifat_turk.lex" />
+    <None Include="PC-KIMMO\isimsifat_turk2.lex" />
+    <None Include="PC-KIMMO\isim_tdk.lex" />
+    <None Include="PC-KIMMO\isim_tdk2.lex" />
+    <None Include="PC-KIMMO\isim_thd2.lex" />
+    <None Include="PC-KIMMO\isim_turk.lex" />
+    <None Include="PC-KIMMO\isim_turk2.lex" />
+    <None Include="PC-KIMMO\kisaltma_turk.lex" />
+    <None Include="PC-KIMMO\kisaltma_turk2.lex" />
+    <None Include="PC-KIMMO\MorphologicalAnalyserUserManual.doc" />
+    <None Include="PC-KIMMO\numbers_turk.lex" />
+    <None Include="PC-KIMMO\numbers_turk2.lex" />
+    <None Include="PC-KIMMO\Originalturk_turk.rul" />
+    <None Include="PC-KIMMO\ozeldurum_turk.lex" />
+    <None Include="PC-KIMMO\ozeldurum_turk2.lex" />
+    <None Include="PC-KIMMO\ozelisim_turk.lex" />
+    <None Include="PC-KIMMO\ozelisim_turk2.lex" />
+    <None Include="PC-KIMMO\pckimmo.bat" />
+    <None Include="PC-KIMMO\PCKIMMO.tak" />
+    <None Include="PC-KIMMO\recognizeFile.tak" />
+    <None Include="PC-KIMMO\sifat_tdk.lex" />
+    <None Include="PC-KIMMO\sifat_tdk2.lex" />
+    <None Include="PC-KIMMO\sifat_turk.lex" />
+    <None Include="PC-KIMMO\sifat_turk2.lex" />
+    <None Include="PC-KIMMO\soru_turk.lex" />
+    <None Include="PC-KIMMO\soru_turk2.lex" />
+    <None Include="PC-KIMMO\t2.lex" />
+    <None Include="PC-KIMMO\teknik_turk.lex" />
+    <None Include="PC-KIMMO\teknik_turk2.lex" />
+    <None Include="PC-KIMMO\tmp_1ba110b9-6b9b-4ba4-baa5-7e779a703901.morph" />
+    <None Include="PC-KIMMO\tmp_22fe45c3-0099-44a5-b6bc-91e36510866b.morph" />
+    <None Include="PC-KIMMO\tmp_2e9d260d-1f71-4de4-a1bf-29d60abf3224.morph" />
+    <None Include="PC-KIMMO\tmp_5aeddc2f-82c7-48b4-ba53-1e348a56f8a9.morph" />
+    <None Include="PC-KIMMO\tmp_7fb6afc3-e40a-4399-bce7-f2aca41b4d3c.morph" />
+    <None Include="PC-KIMMO\tmp_aa8ddb20-e909-4815-a271-10a6999c0ea6.morph" />
+    <None Include="PC-KIMMO\tmp_d83dede1-86cc-4e57-a058-4ecb44491bf5.morph" />
+    <None Include="PC-KIMMO\tmp_df01837e-7b68-477b-99b3-6fec915ef099.morph" />
+    <None Include="PC-KIMMO\tmp_f7b19d2c-1718-4b61-8c2a-5ab654ec2725.morph" />
+    <None Include="PC-KIMMO\turk-turk2.1" />
+    <None Include="PC-KIMMO\turk_turk.lex" />
+    <None Include="PC-KIMMO\turk_turk.rul" />
+    <None Include="PC-KIMMO\turk_turk.tak" />
+    <None Include="PC-KIMMO\turk_turk2.1" />
+    <None Include="PC-KIMMO\turk_turk2.1.lex" />
+    <None Include="PC-KIMMO\turk_turk2.lex" />
+    <None Include="PC-KIMMO\turk_turk21.lex" />
+    <None Include="PC-KIMMO\unlem_tdk.lex" />
+    <None Include="PC-KIMMO\unlem_tdk2.lex" />
+    <None Include="PC-KIMMO\unlem_turk.lex" />
+    <None Include="PC-KIMMO\unlem_turk2.lex" />
+    <None Include="PC-KIMMO\y.lex" />
+    <None Include="PC-KIMMO\yes.lex" />
+    <None Include="PC-KIMMO\zamir_turk.lex" />
+    <None Include="PC-KIMMO\zamir_turk2.lex" />
+    <None Include="PC-KIMMO\zarf_tdk.lex" />
+    <None Include="PC-KIMMO\zarf_tdk2.lex" />
+    <None Include="PC-KIMMO\zarf_turk.lex" />
+    <None Include="PC-KIMMO\zarf_turk2.lex" />
+    <None Include="resources\builddate.properties" />
+    <None Include="resources\languages.properties" />
+    <None Include="resources\languages_en_US.properties" />
+    <None Include="resources\languages_tr_TR.properties" />
+    <None Include="rules\collocationRules.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rules\disambiguationRules.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PC-KIMMO\CONVLEX.EXE" />
+    <Content Include="PC-KIMMO\ilyas1.txt" />
+    <Content Include="PC-KIMMO\ilyas1gen.txt" />
+    <Content Include="PC-KIMMO\ilyas1syn.txt" />
+    <Content Include="PC-KIMMO\ilyas1synt.txt" />
+    <Content Include="PC-KIMMO\ilyas1t.txt" />
+    <Content Include="PC-KIMMO\out.txt" />
+    <Content Include="PC-KIMMO\pckimmo32.exe" />
+    <Content Include="PC-KIMMO\RTest.exe" />
+    <Content Include="PC-KIMMO\tokens_06f8f67b-1fc6-426f-8c5b-f97f797ff66c.txt" />
+    <Content Include="PC-KIMMO\tokens_0805e272-6afb-445e-827d-743a438813d0.txt" />
+    <Content Include="PC-KIMMO\tokens_26bbb929-fa59-44f4-93e9-65e138d8ee1f.txt" />
+    <Content Include="PC-KIMMO\tokens_2870bddc-a8c6-4640-bde7-114ba87d6111.txt" />
+    <Content Include="PC-KIMMO\tokens_8c1949c8-9f80-45c9-be78-a3c917ef6d52.txt" />
+    <Content Include="PC-KIMMO\tokens_939dabee-3c6f-422a-9b8b-a7eadc2164c4.txt" />
+    <Content Include="PC-KIMMO\tokens_ae1191ca-b8a6-4162-aa24-4adec6ab7942.txt" />
+    <Content Include="PC-KIMMO\tokens_c8b49114-ab06-4ec2-82e1-b5bd8146ea25.txt" />
+    <Content Include="PC-KIMMO\tokens_d94cb669-7819-448c-87ae-d80914a24587.txt" />
+    <Content Include="PC-KIMMO\tokens_ef726e25-4757-4cf4-938b-ed48881c9d05.txt" />
+    <Content Include="PC-KIMMO\tokens_f7ec86de-6d20-48b1-b6f7-0fcc21248211.txt" />
+    <Content Include="resources\abbreviations.txt" />
+    <Content Include="resources\mostLikelyMpForSuffix.txt" />
+    <Content Include="resources\MostLikelyMpForWord.txt" />
+    <Content Include="rules\collocationRules.xml" />
+    <Content Include="rules\disambiguationRules.xml" />
+    <Content Include="rules\Rules.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

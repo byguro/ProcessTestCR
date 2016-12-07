@@ -1,0 +1,5 @@
+gel +Verb +Pos +Prog1 +Past +A1sg
+uç +Noun +A3sg +Pnon +Nom ^DB+Verb+Zero +Past +A1sg
+uç +Verb +Pos +Past +A1sg
+masa +Noun +A3sg +P1sg +Abl
+

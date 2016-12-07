@@ -1,0 +1,326 @@
+; Vowel Harmony rules
+ALPHABET
+     b c ç d f g ð h j k l m n p r s þ t v y z Z a e ý i o ö u ü A H K J B D $ Y % & ^ ' x q w E Q ~ + 0 1 2 3 4 5 6 7 8 9 * . â	 
+NULL €
+ANY @
+BOUNDARY #
+SUBSET CONS   	b c ç d f g ð h j k l m n p r s þ t v y z D Z Y K J B 
+SUBSET VOWEL   	a e ý i o ö u ü A H % & ^ E Q 
+SUBSET SVOWEL   a e ý i o ö u ü  
+SUBSET BACKV   	a ý u o   	;kal?n ünlüler
+SUBSET FRONTV   e i ö ü 	;ince ünlüler
+SUBSET HIGHV   	ý i u ü 	;dar ünlüler
+SUBSET FRUNRV   i e 		;düz ince
+SUBSET FRROV   	ö ü 		;yuvarlak ince
+SUBSET BKROV   	u o 		;yuvarlak kal?n
+SUBSET BKUNRV   a ý 		;düz kal?n
+SUBSET X   	s y n 
+SUBSET NDCONS   c Z l d D 
+SUBSET DIGIT   	0 1 2 3 4 5 6 7 8 9 
+
+RULE "defaults" 1 31
+    b c ç d f g ð h j k l m n p r s þ t v y z Z a e ý i o ö u ü @
+    b c ç d f g ð h j k l m n p r s þ t v y z s a e ý i o ö u ü @
+ 1: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+RULE "defaults" 1 30
+    A A H H H H K J B n D D b d k c s y $ a e ý i o ö u ü Y Y @
+    a e ý i u ü k ç b € t d p t ð ç € € € € € € € € € € € € y @
+ 1: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+RULE "defaults" 1 25
+    A % & ^ ' ' x q w E Q ~ + 0 1 2 3 4 5 6 7 8 9 . @
+    € a u o € ' x q w € € ~ € 0 1 2 3 4 5 6 7 8 9 . @
+ 1: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+; Written for numbers
+;RULE "  *:€ <=>  DIGIT _ #" 3 4
+
+;      DIGIT  *  #  @
+;      DIGIT  €  #  @
+; 1:   2      1  1  1
+; 2.   2      3  0  0
+; 3.   0      0  1  0
+ 
+ 
+RULE " A:a => [VOWEL:BACKV | Q:€] ':' * CONS * @:€ *  +:€ *  _" 3 8
+
+      A  Q  '  CONS  @  +  VOWEL   @
+      a  €  '  CONS  €  €  BACKV   @
+ 1:   0  2  1     1  1  1      3   1
+ 2:   3  2  2     2  2  2      3   1
+ 3:   3  3  3     3  3  3      3   1
+
+
+RULE " A:e => [VOWEL:FRONTV | E:€ | %:a | &:u | ^:o] ':' * CONS * @:€ * +:€ *  _" 6 11
+
+      A  ^  '  CONS  @  +  &  %  E   VOWEL   @
+      e  o  '  CONS  €  €  u  a  €  FRONTV   @
+ 1:   0  2  1     1  1  1  3  4  5       6   1
+ 2:   6  2  2     2  2  2  3  4  2       6   1
+ 3:   6  2  3     3  3  3  3  4  3       6   1
+ 4:   6  2  4     4  4  4  3  4  4       6   1
+ 5:   6  2  5     5  5  5  3  4  5       6   1
+ 6:   6  2  6     6  6  6  3  4  6       6   1
+
+
+RULE "  A:€ <=>  _ +:€ H:@ y o r" 11 8
+
+      A  A  +  H  y  o  r   @
+      €  @  €  @  y  o  r   @
+ 1:   2  7  1  1  1  1  1   1
+ 2.   0  0  3  0  0  0  0   0
+ 3.   0  0  0  4  0  0  0   0
+ 4.   0  0  0  0  5  0  0   0
+ 5.   0  0  0  0  0  6  0   0
+ 6.   0  0  0  0  0  0  1   0
+ 7:   2  7  8  1  1  1  1   1
+ 8:   2  7  1  9  1  1  1   1
+ 9:   2  7  1  1 10  1  1   1
+10:   2  7  1  1  1 11  1   1
+11:   2  7  1  1  1  1  0   1
+
+
+RULE " H:u => VOWEL:BKROV ':' * CONS * +:€ * @:€ * _" 2 7
+
+      H  VOWEL  '  CONS  +  @   @
+      u  BKROV  '  CONS  €  €   @
+ 1:   0      2  1     1  1  1   1
+ 2:   2      2  2     2  2  2   1
+
+
+RULE " H:ü =>[VOWEL:FRROV   |  &:u | ^:o] ':' * CONS * +:€ * @:€ * _" 4 9
+
+      H  ^  '  CONS  +  @  &  VOWEL   @
+      ü  o  '  CONS  €  €  u  FRROV   @
+ 1:   0  2  1     1  1  1  3      4   1
+ 2:   4  2  2     2  2  2  3      4   1
+ 3:   4  2  3     3  3  3  3      4   1
+ 4:   4  2  4     4  4  4  3      4   1
+
+
+RULE " H:ý => [VOWEL:BKUNRV | Q:€] ':' * CONS * +:€ * @:€ * _" 3 8
+
+      H  Q  '  CONS  +  @   VOWEL   @
+      ý  €  '  CONS  €  €  BKUNRV   @
+ 1:   0  2  1     1  1  1       3   1
+ 2:   3  2  2     2  2  2       3   1
+ 3:   3  3  3     3  3  3       3   1
+
+
+RULE " H:i => [VOWEL:FRUNRV | E:€ | FRUNRV:€ +:€ |  %:a] ':' * CONS * +:€ * @:€ * _" 6 10
+
+      H  %  '  CONS  +  @  FRUNRV  E   VOWEL   @
+      i  a  '  CONS  €  €       €  €  FRUNRV   @
+ 1:   0  2  1     1  1  1       3  5       6   1
+ 2:   6  2  2     2  2  2       2  2       6   1
+ 3:   0  2  1     1  4  1       3  5       6   1
+ 4:   6  2  4     4  4  4       4  4       6   1
+ 5:   6  2  5     5  5  5       5  5       6   1
+ 6:   6  2  6     6  6  6       6  6       6   1
+
+; drop the vowel if suffix begins with a vowel
+
+RULE "  H:€ => VOWEL:VOWEL (':') +:€ _" 4 5
+
+      H  VOWEL  '  +   @
+      €  VOWEL  '  €   @
+ 1:   0      2  1  1   1
+ 2:   0      2  3  4   1
+ 3:   0      2  1  4   1
+ 4:   1      2  1  1   1
+
+; or if the prog suffix is added to a verbal stem ending in a vowel
+
+RULE "  SVOWEL:€ <=> $:€_ CONS +:€ (X:€) [A:@ | H:@] |  _ +:€ H:@ y o r" 20 12
+
+      SVOWEL  SVOWEL  $  CONS  +  H  A  X  y  o  r   @
+           €       @  €  CONS  €  @  @  €  y  o  r   @
+ 1:       11      16  2     1  1  1  1  1  1 16  1   1
+ 2:        7       3  2     1  1  1  1  1  1  3  1   1
+ 3:       11      16  2     4 17  1  1  1  4 16  4   1
+ 4:       11      16  2     1  5  1  1  1  1 16  1   1
+ 5:       11      16  2     1  1  0  0  6  1 16  1   1
+ 6:       11      16  2     1  1  0  0  1  1 16  1   1
+ 7.        0       0  0     8  0  0  0  0  8  0  8   0
+ 8.        0       0  0     0  9  0  0  0  0  0  0   0
+ 9.        0       0  0     0  0  1  1 10  0  0  0   0
+10.        0       0  0     0  0  1  1  0  0  0  0   0
+11.        0       0  0     0 12  0  0  0  0  0  0   0
+12.        0       0  0     0  0 13  0  0  0  0  0   0
+13.        0       0  0     0  0  0  0  0 14  0  0   0
+14.        0       0  0     0  0  0  0  0  0 15  0   0
+15.        0       0  0     0  0  0  0  0  0  0  1   0
+16:       11      16  2     1 17  1  1  1  1 16  1   1
+17:       11      16  2     1  1 18  1  1  1 16  1   1
+18:       11      16  2     1  1  1  1  1 19 16  1   1
+19:       11      16  2     1  1  1  1  1  1 20  1   1
+20:       11      16  2     1 17  1  1  1  1 16  0   1
+
+; and prevent the H from dropping in such a case
+
+RULE " H:€ /<= VOWEL:€ +:€ _ y o r" 6 7
+
+      VOWEL  +  H  y  o  r   @
+          €  €  €  y  o  r   @
+ 1:       2  1  2  1  1  1   1
+ 2:       2  3  2  1  1  1   1
+ 3:       2  1  4  1  1  1   1
+ 4:       2  3  2  5  1  1   1
+ 5:       2  1  2  1  6  1   1
+ 6:       2  1  2  1  1  0   1
+
+;X = s y n ; consonant deletion
+
+RULE "  X:€ <=> CONS (':') +:€ _ (CONS) VOWEL" 8 7
+
+      X  X  CONS  '  +  VOWEL   @
+      €  @  CONS  '  €  VOWEL   @
+ 1:   0  2     2  1  1      1   1
+ 2:   0  2     2  3  4      1   1
+ 3:   0  2     2  1  4      1   1
+ 4:   7  5     2  1  1      1   1
+ 5:   0  6     6  3  4      0   1
+ 6:   0  2     2  3  4      0   1
+ 7.   0  8     8  0  0      1   0
+ 8.   0  0     0  0  0      1   0
+
+; D = d t
+;RULE  D:t <=> [h | @:ç | þ | @:k | @:p | @:t | f | s] (':') +:€ (@:€) _ 
+
+RULE "  D:t <=> [h | @:ç | þ | @:k | @:p | @:t | f | s]  +:€ (@:€) _" 4 13
+
+      D  D  s  +  @  f  @  @  @  þ  @  h   @
+      t  @  s  €  €  f  t  p  k  þ  ç  h   @
+ 1:   0  1  2  1  1  2  2  2  2  2  2  2   1
+ 2:   0  1  2  3  1  2  2  2  2  2  2  2   1
+ 3:   2  0  2  4  4  2  2  2  2  2  2  2   1
+ 4:   2  0  2  1  1  2  2  2  2  2  2  2   1
+
+; devoicing
+
+RULE "  {b, d}:{p, t} <=> _# | _ +:€ (X:€) [CONS | c:ç]" 7 10
+
+      b  d  b  d  #  +  X  CONS  c   @
+      p  t  @  @  #  €  €  CONS  ç   @
+ 1:   2  2  3  3  1  1  1     1  1   1
+ 2.   0  0  0  0  1  4  0     0  0   0
+ 3:   2  2  3  3  0  6  1     1  1   1
+ 4.   0  0  3  3  0  0  5     1  1   0
+ 5.   0  0  3  3  0  0  0     1  1   0
+ 6:   2  2  0  0  1  1  7     0  0   1
+ 7:   2  2  0  0  1  1  1     0  0   1
+
+
+RULE "  c:ç <=> [ç | þ | @:k | @:p | @:t | f | s | h ]  +:€ _  [H:@ |A:@]" 5 14
+
+      c  c  ç  +  H  A  þ  @  @  @  f  s  h   @
+      ç  @  ç  €  @  @  þ  k  p  t  f  s  h   @
+ 1:   0  1  2  1  1  1  2  2  2  2  2  2  2   1
+ 2:   0  1  2  3  1  1  2  2  2  2  2  2  2   1
+ 3:   5  4  2  1  1  1  2  2  2  2  2  2  2   1
+ 4:   0  1  2  1  0  0  2  2  2  2  2  2  2   1
+ 5.   0  0  0  0  1  1  0  0  0  0  0  0  0   0
+
+
+RULE "  ç:c <=>   _ +:€ (X:€) VOWEL" 7 6
+
+      ç  ç  +  X  VOWEL   @
+      c  @  €  €  VOWEL   @
+ 1:   2  5  1  1      1   1
+ 2.   0  0  3  0      0   0
+ 3.   0  0  0  4      1   0
+ 4.   0  0  0  0      1   0
+ 5:   2  5  6  1      1   1
+ 6:   2  5  1  7      0   1
+ 7:   2  5  1  1      0   1
+
+; ð -> k/g changes
+
+RULE "   k:ð <=> VOWEL _ +:€ (X:€) VOWEL" 8 6
+
+      k  k  VOWEL  +  X   @
+      ð  @  VOWEL  €  €   @
+ 1:   0  1      2  1  1   1
+ 2:   6  3      2  1  1   1
+ 3:   0  1      2  4  1   1
+ 4:   0  1      0  1  5   1
+ 5:   0  1      0  1  1   1
+ 6.   0  0      0  7  0   0
+ 7.   0  0      2  0  8   0
+ 8.   0  0      2  0  0   0
+
+
+RULE "   k:g <=> n_ +:€ (X:€) VOWEL" 8 7
+
+      k  k  n  +  VOWEL  X   @
+      g  @  n  €  VOWEL  €   @
+ 1:   0  1  2  1      1  1   1
+ 2:   6  3  2  1      1  1   1
+ 3:   0  1  2  4      1  1   1
+ 4:   0  1  2  1      0  5   1
+ 5:   0  1  2  1      0  1   1
+ 6.   0  0  0  7      0  0   0
+ 7.   0  0  0  0      1  8   0
+ 8.   0  0  0  0      1  0   0
+
+
+RULE "   g:ð => _ +:€ (X:€) VOWEL" 4 5
+
+      g  +  X  VOWEL   @
+      ð  €  €  VOWEL   @
+ 1:   2  1  1      1   1
+ 2.   0  3  0      0   0
+ 3.   0  0  4      1   0
+ 4.   0  0  0      1   0
+
+
+RULE "   g:ð /<= n_" 2 3
+
+      n  g   @
+      n  ð   @
+ 1:   2  1   1
+ 2:   2  0   1
+
+
+RULE "   g:ð /<= r_" 2 3
+
+      r  g   @
+      r  ð   @
+ 1:   2  1   1
+ 2:   2  0   1
+
+
+RULE "  Y:y <=> _ +:€ [X:€ | H:@]" 5 6
+
+      Y  Y  +  X  H   @
+      y  @  €  €  @   @
+ 1:   2  4  1  1  1   1
+ 2.   0  0  3  0  0   0
+ 3.   0  0  0  1  1   0
+ 4:   2  4  5  1  1   1
+ 5:   2  4  1  0  0   1
+
+
+RULE "  Y:€ <=> _# | _ +:€ NDCONS:@" 5 6
+
+      Y  Y  #  +  NDCONS   @
+      €  @  #  €       @   @
+ 1:   2  3  1  1       1   1
+ 2.   0  0  1  4       0   0
+ 3:   2  3  0  5       1   1
+ 4.   0  0  0  0       1   0
+ 5:   2  3  1  1       0   1
+
+
+RULE "  ':€ <=> _# | _+:€ l" 5 6
+
+      '  '  #  +  l   @
+      €  @  #  €  l   @
+ 1:   2  3  1  1  1   1
+ 2.   0  0  1  4  0   0
+ 3:   2  3  0  5  1   1
+ 4.   0  0  0  0  1   0
+ 5:   2  3  1  1  0   1
+
+END

@@ -1,0 +1,3 @@
+load rules turk_turk
+load lexicon turk_turk2
+load SYNTHESIS-LEXICON turk_turk2

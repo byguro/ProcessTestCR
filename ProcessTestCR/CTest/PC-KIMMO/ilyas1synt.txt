@@ -1,0 +1,13 @@
+gel +Verb +Pos +Prog1 +Past +A1sg
+geliyordum
+
+uç +Noun +A3sg +Pnon +Nom ^DB+Verb+Zero +Past +A1sg
+uçtum
+
+uç +Verb +Pos +Past +A1sg
+uçtum
+
+masa +Noun +A3sg +P1sg +Abl
+masaýmdan
+masamdan
+

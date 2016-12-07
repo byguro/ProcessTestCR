@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : disambiguationRules.xml
+    Created on : July 21, 2006, 12:16 PM
+    Author     : Turhan O. Daybelge
+    Description: This document contains the Disambiguation Rules that are used by the Morphological Disambiguator.
+-->
+
+<disambiguationRules xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='disambiguationRules.xsd'>
+    <chooseRule>
+        <neighbour offset="1"><parse>Conj</parse></neighbour>
+        <target><token>ki</token><parse>Conj</parse></target>
+    </chooseRule>
+    <!--  Rules for handling word "var"  //-->
+    <chooseRule>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>var</token><parse>Noun</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>vardır</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>vardı</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>de+Conj</parse></neighbour>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>vardı</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>varmış</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>varsa</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1" lastOfSentence="true"><parse>Punc</parse></neighbour>
+        <target><token>var</token><parse>Noun</parse></target>
+    </chooseRule>
+    <!--  Rules for handling word "değil"  //-->
+    <chooseRule>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>değil</token><parse>Noun</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>değildir</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>değildi</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>de+Conj</parse></neighbour>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><token>değildi</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>değilmiş</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>değilse</token><parse>Noun^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target firstOfSentence="true"><parse>Conj</parse></target>
+    </chooseRule>
+    <!--  Rules for handling word "ol"  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><token>olan</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><token>olmak</token><parse>Noun</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><token>olmuştur</token><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><token>oldu</token><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><token>ol</token><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>ol+Verb^DB+Adj+PresPart</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>ol+Verb^DB+Noun+Inf</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>ol+Verb^DB+Noun+PastPart+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>ol+Verb^DB+Noun+PastPart+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>ol+Verb^DB+Noun+FutPart+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>ol+Verb^DB+Noun+FutPart+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>olan</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>olmak</token><parse>Noun</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>olmuştur</token><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>oldu</token><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><parse>ol+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><parse>ol+Verb^DB+Adj+PresPart</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><parse>ol+Verb^DB+Noun+Inf</parse></target>
+    </chooseRule>
+    <!--  Rules for numeric tokens  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse>Num+Card</parse></neighbour>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <neighbour offset="1"><parse>Num+Card</parse></neighbour>
+        <target><parse>Num+Card</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num+Card^DB+Noun+Pnon+Loc</parse></neighbour>
+        <target><parse>Num+Card^DB+Noun</parse></target>
+    </chooseRule>
+    <!--  Rules for handling tokens related to date  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>Date</parse></neighbour>
+        <target><token>günü</token><parse>Noun+A3sg+P3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Date</parse></neighbour>
+        <target><token>günlü</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <target><token>yılı</token><parse>Noun+P3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <target><token>yılında</token><parse>Noun+P3sg+Loc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <target><token>yılından</token><parse>Noun+P3sg+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <target><token>yılının</token><parse>Noun+P3sg+Gen</parse></target>
+    </chooseRule>
+    <!--  Choose the adjectival reading to the verbal reading,   //-->
+    <!--  if the next token is a verb  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse>Verb+Pres</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse>Verb+Past</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse>Verb+Fut</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse>Verb+Narr</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse>Verb+Neces</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse>PastPart</parse></target>
+    </chooseRule>
+    <!--  Rules for omitting the very infrequent readings for:  //-->
+    <!--  For example "ama" is also a noun, and "de" is a verb  //-->
+    <chooseRule>
+        <target><parse>ama+Conj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>de+Conj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>ya+Conj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>hatta+Conj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>aslında</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>artık</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>yalnız</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>öylesine</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>diye+Postp+PCNom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>hala</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>işte</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>ise</token><parse>Conj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>bunu</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>bunlar</token><parse>Pron</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>bunun</token><parse>Pron</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>onlar</token><parse>Pron</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>bizlar</token><parse>Pron</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>bizi</token><parse>Pron</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>biz</token><parse>Pron</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>onları</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>bunları</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>birini</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>beni</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>onu</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>şunu</token><parse>Pron+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>Pron+A3pl+Pnon+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><token>ayrıca</token><parse>ayrıca+Adverb</parse></target>
+    </chooseRule>
+    <!--  A noun phrase, but the modified or specified word is a pronoun  //-->
+    <!--  e.g. adamlardan bazıları  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Abl</parse></neighbour>
+        <target><parse>Pron+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Abl</parse></neighbour>
+        <target><parse>Pron+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse>Pron+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse>Pron+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Abl</parse></neighbour>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>Pron+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse>Adj</parse></neighbour>
+        <target><parse>Pron+P3pl</parse></target>
+    </chooseRule>
+    <!--  Noun phrase combinations  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Abl</parse></neighbour>
+        <target><parse>Noun+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Det</parse></neighbour>
+        <neighbour offset="-1"><parse>Noun^DB+Adj</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+Pnon</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>Noun^DB+Det</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3sg</parse></neighbour>
+        <target><parse>Noun</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>Noun^DB+Det</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3sg</parse></neighbour>
+        <target><parse stemAllowed="false">Noun+A3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>Noun^DB+Adj+With</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+Pnon</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>Noun^DB+Adj+With</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3sg</parse></neighbour>
+        <target><parse stemAllowed="false">Noun+A3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>Noun^DB+Adj+FitFor</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3sg</parse></neighbour>
+        <target><parse stemAllowed="false">Noun+A3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse stemAllowed="false">Noun+A3sg+Pnon</parse></neighbour>
+        <neighbour offset="-1"><parse stemAllowed="false">Noun^DB+Adj+With</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+Pnon</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <!--  Rules for the problem word "ile"  //-->
+    <!--  Still not working correctly  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse>Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse>ile+Conj</parse></neighbour>
+        <target><parse>Noun+A3sg+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse>ile+Conj</parse></neighbour>
+        <target><parse>Noun+A3pl+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse>ile+Conj</parse></neighbour>
+        <target><parse>Noun+A3pl+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse>ile+Conj</parse></neighbour>
+        <target><parse>Noun+A3pl+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num</parse></neighbour>
+        <neighbour offset="1"><parse>Num</parse></neighbour>
+        <target><parse>ile+Conj</parse></target>
+    </chooseRule>
+    <!--  Choose the pronoun reading, instead of any other  //-->
+    <chooseRule>
+        <target><parse>Pron+Dat</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>Pron+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>Pron+Ins</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>Pron+Loc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>Pron+Gen</parse></target>
+    </chooseRule>
+    <!--  NOUN+CASE - POSTP+SUBCAT agreements  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>WithoutHavingDoneSo</parse></neighbour>
+        <target><parse>Postp+PCAbl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>gibi+Postp</parse></neighbour>
+        <target><parse>Pron+Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>kadar+Postp</parse></neighbour>
+        <target><parse>Pron+Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>için+Postp</parse></neighbour>
+        <target><parse>Pron+Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>için+Postp^DB+Verb</parse></neighbour>
+        <target><parse>Pron+Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCDat</parse></neighbour>
+        <target><parse>Dat</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCIns</parse></neighbour>
+        <target><parse>Ins</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCGen</parse></neighbour>
+        <target><parse>Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCLoc</parse></neighbour>
+        <target><parse>Loc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>için+Postp</parse></neighbour>
+        <target><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>gibi+Postp</parse></neighbour>
+        <target><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>boyunca+Postp</parse></neighbour>
+        <target><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>üzere+Noun</parse></neighbour>
+        <target><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>diye+Postp</parse></neighbour>
+        <target><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCAcc</parse></neighbour>
+        <target><parse>Num+Card^DB+Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCAcc</parse></neighbour>
+        <target><parse>Acc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Postp+PCAbl</parse></neighbour>
+        <target><parse>Abl</parse></target>
+    </chooseRule>
+    <!--  Some POSTPs do not require CASE agreement, especially for tokens indicating date  //-->
+    <!--   ... sonra  //-->
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl</parse></neighbour>
+        <target><token>yıl</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl</parse></neighbour>
+        <target><token>gün</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl</parse></neighbour>
+        <target><token>ay</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl</parse></neighbour>
+        <target><token>saat</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl</parse></neighbour>
+        <target><token>hafta</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl</parse></neighbour>
+        <target><token>süre</token><parse>Nom</parse></target>
+    </chooseRule>
+    <!--   ... önce  //-->
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl</parse></neighbour>
+        <target><token>yıl</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl</parse></neighbour>
+        <target><token>gün</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl</parse></neighbour>
+        <target><token>ay</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl</parse></neighbour>
+        <target><token>saat</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl</parse></neighbour>
+        <target><token>hafta</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl</parse></neighbour>
+        <target><token>süre</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>yıl</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>gün</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>ay</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>saat</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>hafta</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>sonra+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>süre</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>yıl</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>gün</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>ay</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>saat</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>hafta</token><parse>Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>önce+Postp+PCAbl^DB+Verb</parse></neighbour>
+        <target><token>süre</token><parse>Nom</parse></target>
+    </chooseRule>
+    <!--  Rules for the word "çok"  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse>PastPart+Abl</parse></neighbour>
+        <neighbour offset="-1"><parse>Adverb</parse></neighbour>
+        <neighbour offset="1"><parse stemAllowed="false">Noun</parse></neighbour>
+        <target><token>çok</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Noun^DB+Adj</parse></neighbour>
+        <target><token>çok</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Noun^DB+Adj^DB+Verb</parse></neighbour>
+        <target><token>çok</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><token>çok</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj^DB+Verb</parse></neighbour>
+        <target><token>çok</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Abl</parse></neighbour>
+        <neighbour offset="1"><parse>Postp+PCAbl</parse></neighbour>
+        <target><token>daha</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Abl</parse></neighbour>
+        <neighbour offset="1"><parse>Postp+PCAbl</parse></neighbour>
+        <target><token>çok</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+Abl</parse></neighbour>
+        <target><token>çok</token><parse>Postp</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adj^DB+Noun+Abl</parse></neighbour>
+        <target><token>çok</token><parse>Postp</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><token>çok</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adverb</parse></neighbour>
+        <neighbour offset="1"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><token>çok</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Noun+Inf+Abl</parse></neighbour>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <target><token>çok</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Noun+Inf+Abl</parse></neighbour>
+        <neighbour offset="1"><parse>Adj^DB+Verb</parse></neighbour>
+        <target><token>çok</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adverb</parse></neighbour>
+        <target><token>çok</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>gibi+Postp</parse></neighbour>
+        <target><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Adverb</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="1"><parse>Noun</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <!--  VERB - CASE agreements  //-->
+    <!--  Some verbs require certain case marked nouns before them,  //-->
+    <!--  e.g. eve yönelmek  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><parse>yapış+Verb^DB</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><parse>yapış+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><parse>yönel+Verb^DB</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><parse>yönel+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Acc</parse></neighbour>
+        <target><parse>tarihle+Verb^DB</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Acc</parse></neighbour>
+        <target><parse>tarihle+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><parse>tarihle+Verb^DB</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><parse>tarihle+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><parse>düş+Verb^DB</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><parse>düş+Verb</parse></target>
+    </chooseRule>
+    <!--  Noun - CASE agreements  //-->
+    <!--  Some adjectives and nouns behave as POSTPs,  //-->
+    <!--  and require certain case markings before them  //-->
+    <!--  e.g. bana layık, benim tarafımdan  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><token>yapışık</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Abl</parse></neighbour>
+        <target><token>farklı</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Abl</parse></neighbour>
+        <target><token>sorumlu</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Abl</parse></neighbour>
+        <neighbour offset="-1"><parse>Adverb</parse></neighbour>
+        <target><token>farklı</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Gen</parse></neighbour>
+        <target><token>yerine</token><parse>Noun+A3sg+P3sg+Dat</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>yerine</token><parse>Noun+A3sg+P3sg+Dat</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><token>yakın</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><token>layık</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Dat</parse></neighbour>
+        <target><token>açık</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb^DB+Nom</parse></neighbour>
+        <target><token>halde</token><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Nom</parse></neighbour>
+        <target><token>tarafından</token><parse>Noun+A3sg+P3sg+Abl</parse></target>
+    </chooseRule>
+    <!--  ADVERB - ADJ - NOUN forms, for the tokens "en" and "daha"  //-->
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Ness</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Inf</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><token>daha</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Ness</parse></neighbour>
+        <target><token>daha</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Inf</parse></neighbour>
+        <target><token>daha</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Inf^DB+Verb</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>adverb</parse></neighbour>
+        <neighbour offset="2"><parse>Verb^DB+Noun</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adverb</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Adj^DB</parse></neighbour>
+        <target><token>en</token><parse>Adverb</parse></target>
+    </chooseRule>
+    <!--  Noun phrases with one or more adjectives before a noun  //-->
+    <!--  Note that instead of simple rules, we use very controlled rules to  //-->
+    <!--  define the nouns and adjectives  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <neighbour offset="1"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse  stemAllowed="false">Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+Pnon+Dat</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+Pnon+Gen</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+Pnon+Gen</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+Pnon+Ins</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+Pnon+Loc</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+Pnon+Nom</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Det</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse  stemAllowed="false">Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Inf</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse>Noun+Ness</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Det</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse>Adj+Ness</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Adverb</parse></neighbour>
+        <neighbour offset="1"><parse>Det</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse>Adj+PresPart</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Det</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse>Adj+PresPart</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Det</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse>Det</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Det</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse>Verb+Narr^DB+Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Loc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Ins</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse>Noun^DB+Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Det</parse></neighbour>
+        <target><parse>Noun+Inf</parse></target>
+    </chooseRule>
+    <!--  A noun phrase, but the modified or specified word is a pronoun  //-->
+    <!--  e.g. evlerin bazıları  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse>Pron+P3pl</parse></target>
+    </chooseRule>
+    <!--  Noun phrases in the form NOUN+GEN-ADJ-NOUN+POSS  //-->
+    <!--  Also noun phrases, which have verbal reading  //-->
+    <!--  e.g. benim mavi kitabım  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse>A1sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P1sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A1sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P1sg^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A2sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P2sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A2sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P2sg^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse>Noun+A3pl+P3pl+Inf</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3pl^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3pl^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+P3pl^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3pl^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse>Adverb</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3sg</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A3sg+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A1pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P1pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>A2pl+Gen</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P2pl</parse></target>
+    </chooseRule>
+    <!--  Noun phrases in the form: NOUN+GEN-NOUN-NOUN+POSS  //-->
+    <!--  Also noun phrases, which have verbal reading  //-->
+    <!--  e.g. benim kitap kapağım  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse>A1sg+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P1sg</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A2sg+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P2sg</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+A3pl+P3pl</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3pl</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3sg+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+A3pl+P3sg</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A1pl+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P1pl</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A2pl+Gen</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P2pl</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A1sg+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P1sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A2sg+Gen</parse></neighbour>
+        <target><parse>Noun+P2sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Pnon+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+P3sg+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse>Noun+P3pl+Inf</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3pl+Gen</parse></neighbour>
+        <target><parse>Noun+P3sg+Inf</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3sg+Gen</parse></neighbour>
+        <target><parse>Noun+P3sg+Inf</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3sg+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A3sg+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P3sg^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A1pl+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P1pl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>A2pl+Gen</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+P2pl</parse></target>
+    </chooseRule>
+    <!--  Some more rules for the token "ile"  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>ile+Conj</parse></neighbour>
+        <target><parse  stemAllowed="false">Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>birlikte</parse></neighbour>
+        <target><parse>ile+Postp</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Verb</parse></neighbour>
+        <target><parse>ile+Postp</parse></target>
+    </chooseRule>
+    <!--  Some more noun phrase combinations  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Verb^DB+Adj+PastPart</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb^DB+Adj+PastPart</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb^DB+Adj+PastPart</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb^DB+Adj+PastPart</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Loc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb^DB+Adj+PastPart</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Ins</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb+Narr^DB+Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Verb^DB+Adj+FutPart</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <neighbour offset="1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+A3sg+P3sg+Nom</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+P3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Gen</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Abl</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Loc</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Ins</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+Pnon+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse>Num+Card</parse></neighbour>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse>Num+Card</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+Pnon</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun</parse></neighbour>
+        <target><parse>Num+Card</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="1"><parse>Noun+P3sg</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></target>
+    </chooseRule>
+    <!--  Rules for connectives "ve" and "veya"  //-->
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>ve+Conj</parse></neighbour>
+        <target><parse  stemAllowed="false">Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Adj</parse></neighbour>
+        <neighbour offset="-1"><parse>veya+Conj</parse></neighbour>
+        <target><parse  stemAllowed="false">Adj</parse></target>
+    </chooseRule>
+    <!--  Noun phrases with no genitivee case marking  //-->
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Nom</parse></neighbour>
+        <neighbour offset="1"><parse  stemAllowed="false">Noun+A3sg+P3sg+Nom</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+A3pl+P3sg</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3sg+Nom</parse></target>
+    </chooseRule>
+   <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Nom</parse></neighbour>
+        <neighbour offset="1"><parse  stemAllowed="false">Noun+A3sg+P3sg+Nom</parse></neighbour>
+        <neighbour offset="2"><parse  stemAllowed="false">Noun+A3sg+P3sg</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3sg+Nom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Noun+A3sg+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+P3sg+Nom</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-2"><parse  stemAllowed="false">Noun+A3sg+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+P3sg+Nom</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3pl+Pnon+Nom</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3sg+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <target><parse  stemAllowed="false">Noun+A3pl+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <target><parse>Noun+A3pl+P3sg^DB+Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <target><parse>Noun+A3pl+P3sg^DB+Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <target><parse>Noun+A3sg+P3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="-1"><parse  stemAllowed="false">Noun+A3sg+Pnon+Nom</parse></neighbour>
+        <target><parse>Noun+A3sg+P3sg^DB</parse></target>
+    </chooseRule>
+    <!--  choose adjective reading before a noun  //-->
+    <chooseRule>
+        <neighbour offset="1"><parse>Noun+Nom</parse></neighbour>
+        <neighbour offset="-1"><parse>Verb^DB+Adj+PresPart</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Noun</parse></neighbour>
+        <target><parse>Adj</parse></target>
+    </chooseRule>
+    <!--  choose adverb reading at the beginning of a sentence  //-->
+    <chooseRule>
+        <target firstOfSentence="true"><parse>Adverb</parse></target>
+    </chooseRule>
+    <!--  choose verb reading of devredilecek, yapacak at the end of a sentence  //-->
+    <chooseRule>
+        <target lastOfSentence="true"><parse>Verb+Fut+A3sg</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <target><parse>Postp+PCNom</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1" lastOfSentence="true"><parse>Punc</parse></neighbour>
+        <target><parse>Verb</parse></target>
+    </chooseRule>
+    <chooseRule>
+        <neighbour offset="1"><parse>Ques</parse></neighbour>
+        <target><parse stemAllowed="false">Verb</parse></target>
+    </chooseRule>
+    <!--  LEXICAL DELETE RULES  //-->
+    <deleteRule>
+        <target><parse>P2sg</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Verb+Reflex</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>A3sg+P3pl</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Opt+A3sg</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Imp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Equ</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>P1sg</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Postp^DB+Verb</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Noun^DB+Verb+Acquire</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Noun^DB+Verb+Become</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Noun^DB+Adj+Acquire</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Noun^DB+Adj+Become</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>sonra+Postp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>önce+Postp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>karşı+Postp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>birlikte+Postp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>doğru+Postp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>başka+Postp</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>belki</token><parse>Adj</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>ayrıca</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>hem</token><parse>Adverb</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>bir</token><parse>Num+Card</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>bir</token><parse>Adverb</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>ben</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>gene</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Num+Real</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>bugün</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>gece</token><parse>Noun+Dat</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>gerçekte</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>çok</token><parse>Adj</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>artık</token><parse>Adj</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>sonradan</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>geceleri</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>toptan</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>biz</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>ah</token><parse>Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>ancak</token><parse>Conj</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>öyle</token><parse>Adj</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>akla</token><parse>Ins</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>asla</token><parse>Ins</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>oysa</token><parse>Verb</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>onun</token><parse>DemonsP</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>üzere</token><parse>Dat</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token>sadece</token><parse>Noun^DB+Adverb</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><parse>Noun+P2sg^DB+Verb</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <neighbour offset="-1"><parse>Adj+PresPart</parse></neighbour>
+        <target><parse>Adj+PresPart^DB+Noun</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <neighbour offset="-1"><parse>Adj+PresPart</parse></neighbour>
+        <target><parse>Adj+PresPart</parse></target>
+    </deleteRule>
+    <!--  delete the wrong parse of tokens like "çalışırlar", "alırlar", etc.  //-->
+    <deleteRule>
+        <target><parse>Verb+Pos+Aor^DB+Adj+Zero^DB+Verb+Zero+Pres+A3pl</parse></target>
+    </deleteRule>
+    <!--  delete the wrong parse of tokens like "arabalardı", "kedilerdi", etc.  //-->
+    <deleteRule>
+        <target><parse>Noun+A3sg+Pnon^DB+Verb+Zero+A3pl+Past</parse></target>
+    </deleteRule>
+    <!--  delete the wrong parse of tokens like "yapar", "duyar" just before "mısınız"  //-->
+    <deleteRule>
+        <neighbour offset="1"><parse>Ques</parse></neighbour>
+        <target><parse>Verb+Pos+Aor^DB+Adj+Zero</parse></target>
+    </deleteRule>
+    <!--  delete the wrong parse of tokens like "azalacak", "verilecek" at the end of sentence  //-->
+    <deleteRule>
+        <neighbour offset="1"><parse>Punc</parse></neighbour>
+        <target><parse>Adj+FutPart</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <target><token matchType="regex">[Tt]ürkiye</token><parse>Noun+Dat</parse></target>
+    </deleteRule>
+    <deleteRule>
+        <neighbour offset="-1"><parse>Num</parse></neighbour>
+        <target><token>derece</token><parse>Adverb+Ly</parse></target>
+    </deleteRule>
+</disambiguationRules>

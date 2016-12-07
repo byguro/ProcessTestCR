@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : collocationRules.xml
+    Created on : July 21, 2006, 12:16 PM
+    Author     : Turhan O. Daybelge
+    Description: This document contains the Collocation Rules that are used by the Collocation Recognizer.
+-->
+
+<collocationRules xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='collocationRules.xsd'>
+        <collocationRule>   <!--    koşa koşa   //-->
+		<constraint gapAllowedBefore="false"><parse matchType="leftToRight">_R+Verb+Pos+Opt+A3sg</parse></constraint>
+		<constraint><parse>_R+Verb+Pos+Opt+A3sg</parse></constraint>
+		<action>%1 %2+Adverb+ByDoingSo</action>
+	</collocationRule>
+	<collocationRule>   <!--    duyar duymaz   //-->
+		<constraint><parse>_R+Verb+Pos+Aor+A3sg</parse></constraint>
+		<constraint><parse>_R+Verb+Neg+Aor+A3sg</parse></constraint>
+		<action>%1 %2+Adverb+When</action>
+	</collocationRule>
+        <collocationRule>   <!--    gitti gideli   //-->
+		<constraint><parse>_R+Verb+Pos+Past+A3sg</parse></constraint>
+		<constraint><parse>_R+Verb+Pos^DB+Adverb+SinceDoingSo</parse></constraint>
+		<action>%1 %2+Adverb+SinceDoingSo</action>
+	</collocationRule>
+	<collocationRule>   <!--    yapıp yapmama   //-->
+		<constraint><parse>_R+Verb+Pos^DB+Adverb+AfterDoingSo</parse></constraint>
+		<constraint><parse>_R+Verb+Neg^DB+Noun+Inf2+*</parse></constraint>
+		<action>%1 %2+Noun+Inf2+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yapsa yapsa   //-->
+		<constraint><parse>_R+Verb+Pos+Desr+A3sg</parse></constraint>
+		<constraint><parse>_R+Verb+Pos+Desr+A3sg</parse></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    akın akın, kapı kapı   //-->
+		<constraint><parse>_R+Noun+Pnon+Nom</parse></constraint>
+		<constraint><parse>_R+Noun+Pnon+Nom</parse></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    şırıl şırıl   //-->
+		<constraint><parse>_R+Dup</parse></constraint>
+		<constraint><parse>_R+Dup</parse></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    güzel güzel   //-->
+		<constraint><parse>_R+Adj</parse></constraint>
+		<constraint><parse>_R+Adj</parse></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    güzel mi güzel   //-->
+		<constraint><parse>_R+Adj</parse></constraint>
+                <constraint><parse>_W+Ques</parse></constraint>
+		<constraint><parse>_R+Adj</parse></constraint>
+		<action>%1 %W %3+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    ev be ev   //-->
+		<constraint><parse>_W+Noun+Pnon+Nom</parse></constraint>
+                <constraint><token>be</token></constraint>
+		<constraint><parse>_W+Noun+Pnon+Nom</parse></constraint>
+		<action>%1 %2 %3+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    başlı başına   //-->
+                <constraint><token>başlı</token></constraint>
+		<constraint><token>başına</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    hiç kimse   //-->
+                <constraint><token>hiç</token></constraint>
+		<constraint><token>kimse</token></constraint>
+		<action>%1 %2+Pron</action>
+	</collocationRule>
+        <collocationRule>   <!--    ne denli   //-->
+                <constraint><token>ne</token></constraint>
+		<constraint><token>denli</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    son derece   //-->
+                <constraint><token>son</token></constraint>
+                <constraint><token>derece</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    şimdiye dek   //-->
+                <constraint><token>şimdiye</token></constraint>
+                <constraint><token>dek</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    okur yazar   //-->
+                <constraint><token>okur</token></constraint>
+                <constraint><token>yazar</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    en azından   //-->
+                <constraint><token>en</token></constraint>
+		<constraint><token>azından</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    hiç olmazsa   //-->
+                <constraint><token>hiç</token></constraint>
+                <constraint><token>olmazsa</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    belli başlı   //-->
+                <constraint><token>belli</token></constraint>
+                <constraint><token>başlı</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    az kalsın   //-->
+                <constraint><token>az</token></constraint>
+                <constraint><token>kalsın</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    can havliyle   //-->
+                <constraint><token>can</token></constraint>
+                <constraint><token>havliyle</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    allaha ısmarladık   //-->
+                <constraint><token>allaha</token></constraint>
+                <constraint><token>ısmarladık</token></constraint>
+		<action>%1 %2+Interj</action>
+	</collocationRule>
+        <collocationRule>   <!--    tek tük   //-->
+                <constraint><token>tek</token></constraint>
+                <constraint><token>tük</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    her türlü   //-->
+                <constraint><token>her</token></constraint>
+                <constraint><token>türlü</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    öte yandan   //-->
+                <constraint><token>öte</token></constraint>
+                <constraint><token>yandan</token></constraint>
+		<action>%1 %2+Conj</action>
+	</collocationRule>
+        <collocationRule>   <!--    hem de   //-->
+                <constraint><token>hem</token></constraint>
+                <constraint><token>de</token></constraint>
+		<action>%1 %2+Conj</action>
+	</collocationRule>
+        <collocationRule>   <!--    ya da   //-->
+                <constraint><token>ya</token></constraint>
+                <constraint><token>da</token></constraint>
+		<action>%1 %2+Conj</action>
+	</collocationRule>
+        <collocationRule>   <!--    yanı sıra   //-->
+                <constraint><token>yanı</token></constraint>
+                <constraint><token>sıra</token></constraint>
+		<action>%1 %2+Postp+PCGen</action>
+	</collocationRule>
+        <collocationRule>   <!--    ne menem   //-->
+                <constraint><token>ne</token></constraint>
+                <constraint><token>menem</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    ipe sapa gelmez   //-->
+                <constraint><token>ipe</token></constraint>
+                <constraint><token>sapa</token></constraint>
+                <constraint><token>gelmez</token></constraint>
+		<action>%1 %2+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!--    geçmiş olsuna   //-->
+                <constraint><token>geçmiş</token></constraint>
+                <constraint><token>olsuna</token></constraint>
+		<action>%1 %2+Adverb</action>
+	</collocationRule>
+        <collocationRule>   <!--    yüzde 12   //-->
+                <constraint><token>yüzde</token></constraint>
+                <constraint><parse>_R+Num+Card+*</parse></constraint>
+		<action>%R+Num+Percent+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yüzde 12.2   //-->
+                <constraint><token>yüzde</token></constraint>
+                <constraint><parse>_R+Num+Real+*</parse></constraint>
+		<action>%R+Num+Percent+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    1000-2000   //-->
+                <constraint><parse>_X+Num+Card</parse></constraint>
+                <constraint><token>-</token></constraint>
+                <constraint><parse>_Y+Num+Card+*</parse></constraint>
+		<action>%X-%Y+Num+Range+*</action>
+	</collocationRule>
+
+        <collocationRule>   <!--    1000-2000   //-->
+                <constraint><parse>_X+Num+Real</parse></constraint>
+                <constraint><token>-</token></constraint>
+                <constraint><parse>_Y+Num+Card+*</parse></constraint>
+		<action>%X-%Y+Num+Range+*</action>
+	</collocationRule>
+
+        <collocationRule>   <!--    1000-2000   //-->
+                <constraint><parse>_X+Num+Card</parse></constraint>
+                <constraint><token>-</token></constraint>
+                <constraint><parse>_Y+Num+Real+*</parse></constraint>
+		<action>%X-%Y+Num+Range+*</action>
+	</collocationRule>
+
+        <collocationRule>   <!--    1000-2000   //-->
+                <constraint><parse>_X+Num+Real</parse></constraint>
+                <constraint><token>-</token></constraint>
+                <constraint><parse>_Y+Num+Real+*</parse></constraint>
+		<action>%X-%Y+Num+Range+*</action>
+	</collocationRule>
+
+        <collocationRule>   <!--    1000/2000   //-->
+                <constraint><parse>_X+Num+Card</parse></constraint>
+                <constraint><token>/</token></constraint>
+                <constraint><parse>_Y+Num+Card+*</parse></constraint>
+		<action>%X/%Y+Num+Ratio+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dörtte bir   //-->
+                <constraint><parse>_X+Num+Card^DB+Noun+Zero+A3sg+Pnon+Loc</parse></constraint>
+                <constraint><parse>_Y+Num+Card+*</parse></constraint>
+		<action>%Y/%X+Num+Ratio+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    bir bölü dört   //-->
+                <constraint><parse>_X+Num+Card</parse></constraint>
+                <constraint><token>bölü</token></constraint>
+                <constraint><parse>_Y+Num+Card+*</parse></constraint>
+		<action>%X/%Y+Num+Ratio+*</action>
+	</collocationRule>        
+        <collocationRule>   <!--    dikkat çek   //-->
+                <constraint><token>dikkat</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ele al   //-->
+                <constraint><token>ele</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>     
+        <collocationRule>   <!--    yok ol   //-->
+                <constraint><token>yok</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yararlı ol   //-->
+                <constraint><token>yararlı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hedef ol   //-->
+                <constraint><token>hedef</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yol gösterici ol   //-->
+                <constraint><token>yol</token></constraint>
+                <constraint><token>gösterici</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    söz konusu ol   //-->
+                <constraint><token>söz</token></constraint>
+                <constraint><token>konusu</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yok ol   //-->
+                <constraint><token>yok</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    güçlü ol   //-->
+                <constraint><token>güçlü</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hazır ol   //-->
+                <constraint><token>hazır</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    çözüm ol   //-->
+                <constraint><token>çözüm</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    geçerli ol   //-->
+                <constraint><token>geçerli</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    güç ol   //-->
+                <constraint><token>güç</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sorumlu al   //-->
+                <constraint><token>sorumlu</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kul ol   //-->
+                <constraint><token>kul</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ait ol   //-->
+                <constraint><token>ait</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    zorunlu ol   //-->
+                <constraint><token>zorunlu</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tedavi ol   //-->
+                <constraint><token>tedavi</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    felç ol   //-->
+                <constraint><token>felç</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    taklit et   //-->
+                <constraint><token>taklit</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    talep et   //-->
+                <constraint><token>talep</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tespit et   //-->
+                <constraint><token>tespit</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    para et   //-->
+                <constraint><token>para</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    baş et   //-->
+                <constraint><token>baş</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    başta gel   //-->
+                <constraint><token>başta</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="gel"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yol al   //-->
+                <constraint><token>yol</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sahip ol   //-->
+                <constraint><token>sahip</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    önemli ol   //-->
+                <constraint><token>önemli</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yardımcı ol   //-->
+                <constraint><token>yardımcı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yol al   //-->
+                <constraint><token>yol</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sahne ol   //-->
+                <constraint><token>sahne</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    arkadaş ol   //-->
+                <constraint><token>arkadaş</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yürürlükte ol   //-->
+                <constraint><token>yürürlükte</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    üye ol   //-->
+                <constraint><token>üye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    bağlı ol   //-->
+                <constraint><token>bağlı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    konu ol   //-->
+                <constraint><token>konu</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    şikayetçi ol   //-->
+                <constraint><token>şikayetçi</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    aday ol   //-->
+                <constraint><token>aday</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    son ol   //-->
+                <constraint><token>son</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    müteşekkür ol   //-->
+                <constraint><token>müteşekkür</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    başarılı ol   //-->
+                <constraint><token>başarılı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kalabalık ol   //-->
+                <constraint><token>kalabalık</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    altüst ol   //-->
+                <constraint><token>altüst</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tehdit et   //-->
+                <constraint><token>tehdit</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    temin et   //-->
+                <constraint><token>temin</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yolculuk et   //-->
+                <constraint><token>yolculuk</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    önde gel   //-->
+                <constraint><token>önde</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="gel"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    etkili ol   //-->
+                <constraint><token>etkili</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ilişkili ol   //-->
+                <constraint><token>ilişkili</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mümkün ol   //-->
+                <constraint><token>mümkün</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    değişik ol   //-->
+                <constraint><token>değişik</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    uygun ol   //-->
+                <constraint><token>uygun</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    fikir sahibi ol   //-->
+                <constraint><token>fikir</token></constraint>
+                <constraint><token>sahibi</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sebep ol   //-->
+                <constraint><token>sebep</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    elinde ol   //-->
+                <constraint><token>elinde</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    teslim ol   //-->
+                <constraint><token>teslim</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kolay ol   //-->
+                <constraint><token>kolay</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    harap ol   //-->
+                <constraint><token>harap</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yasak ol   //-->
+                <constraint><token>yasak</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kaynak ol   //-->
+                <constraint><token>kaynak</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    alabora ol   //-->
+                <constraint><token>alabora</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    müteşekkir ol   //-->
+                <constraint><token>müteşekkir</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dikkatli ol   //-->
+                <constraint><token>dikkatli</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hakim ol   //-->
+                <constraint><token>hakim</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    alt üst ol   //-->
+                <constraint><token>alt</token></constraint>
+                <constraint><token>üst</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    devam et   //-->
+                <constraint><token>devam</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hareket et   //-->
+                <constraint><token>hareket</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    takdir et   //-->
+                <constraint><token>takdir</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    karşılık gel   //-->
+                <constraint><token>karşılık</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="gel"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    göze çarp   //-->
+                <constraint><token>göze</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çarp"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    rolü ol   //-->
+                <constraint><token>rolü</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    neden ol   //-->
+                <constraint><token>neden</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mevcut ol   //-->
+                <constraint><token>mevcut</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    felaket ol   //-->
+                <constraint><token>felaket</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mutlu ol   //-->
+                <constraint><token>mutlu</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    destek ol   //-->
+                <constraint><token>destek</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    belli ol   //-->
+                <constraint><token>belli</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    güvence altında ol   //-->
+                <constraint><token>güvence</token></constraint>
+                <constraint><token>altında</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yeterli ol   //-->
+                <constraint><token>yeterli</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kardeş ol   //-->
+                <constraint><token>kardeş</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kayıp ol   //-->
+                <constraint><token>kayıp</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>kaybol+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--   küs ol    //-->
+                <constraint><token>küs</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--   boyun eğ    //-->
+                <constraint><token>boyun</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="eğ"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--   şart ol    //-->
+                <constraint><token>şart</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    engel ol   //-->
+                <constraint><token>engel</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mahkum ol   //-->
+                <constraint><token>mahkum</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    gözetim altında ol   //-->
+                <constraint><token>gözetim</token></constraint>
+                <constraint><token>altında</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    telefon et   //-->
+                <constraint><token>telefon</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hizmet et   //-->
+                <constraint><token>hizmet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    takip et   //-->
+                <constraint><token>takip</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    eşlik et   //-->
+                <constraint><token>eşlik</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ifade et   //-->
+                <constraint><token>ifade</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    inşa et   //-->
+                <constraint><token>inşa</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahmin et   //-->
+                <constraint><token>tahmin</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    gözardı et   //-->
+                <constraint><token>gözardı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    itiraf et   //-->
+                <constraint><token>itiraf</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    göç et   //-->
+                <constraint><token>göç</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    alay et   //-->
+                <constraint><token>alay</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yerle bir et   //-->
+                <constraint><token>yerle</token></constraint>
+                <constraint><token>bir</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hitap et   //-->
+                <constraint><token>hitap</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    aktive et   //-->
+                <constraint><token>aktive</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    iddia et   //-->
+                <constraint><token>iddia</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tercih et   //-->
+                <constraint><token>tercih</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ikna et   //-->
+                <constraint><token>ikna</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dezenfekte et   //-->
+                <constraint><token>dezenfekte</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    elde et   //-->
+                <constraint><token>elde</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    fark et   //-->
+                <constraint><token>fark</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>farket+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tolere et   //-->
+                <constraint><token>tolere</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yerinden et   //-->
+                <constraint><token>yerinden</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ateş et   //-->
+                <constraint><token>ateş</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    idam et   //-->
+                <constraint><token>idam</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tercüme et   //-->
+                <constraint><token>tercüme</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mahkum et   //-->
+                <constraint><token>mahkum</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    merak et   //-->
+                <constraint><token>merak</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    şikayet et   //-->
+                <constraint><token>şikayet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tesis et   //-->
+                <constraint><token>tesis</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ibadet et   //-->
+                <constraint><token>ibadet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahakkuk et   //-->
+                <constraint><token>tahakkuk</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    alt et   //-->
+                <constraint><token>alt</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    iltica et   //-->
+                <constraint><token>iltica</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sonuç al   //-->
+                <constraint><token>sonuç</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    göze al   //-->
+                <constraint><token>göze</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dikkate al   //-->
+                <constraint><token>dikkate</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    öne sür   //-->
+                <constraint><token>öne</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="sür"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    esas al   //-->
+                <constraint><token>esas</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ciddiye al   //-->
+                <constraint><token>ciddiye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yer al   //-->
+                <constraint><token>yer</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tavır al   //-->
+                <constraint><token>tavır</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    eğitim al   //-->
+                <constraint><token>eğitim</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    fotoğraf çek   //-->
+                <constraint><token>fotoğraf</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    oyun oyna   //-->
+                <constraint><token>oyun</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="oyna"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    temsil et   //-->
+                <constraint><token>temsil</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    rekabet et   //-->
+                <constraint><token>rekabet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ziyaret et   //-->
+                <constraint><token>ziyaret</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    terk et   //-->
+                <constraint><token>terk</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kontrol et   //-->
+                <constraint><token>kontrol</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    işgal et   //-->
+                <constraint><token>işgal</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tedirgin et   //-->
+                <constraint><token>tedirgin</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ithal et   //-->
+                <constraint><token>ithal</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yerle bir et   //-->
+                <constraint><token>yerle</token></constraint>
+                <constraint><token>bir</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yerlebir et   //-->
+                <constraint><token>yerlebir</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    davet et   //-->
+                <constraint><token>davet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahrik et   //-->
+                <constraint><token>tahrik</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    akın et   //-->
+                <constraint><token>akın</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dans et   //-->
+                <constraint><token>dans</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>danset+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yok et   //-->
+                <constraint><token>yok</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>yoket+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ikram et   //-->
+                <constraint><token>ikram</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sınırdışı et   //-->
+                <constraint><token>sınırdışı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    veto et   //-->
+                <constraint><token>veto</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ayırt et   //-->
+                <constraint><token>ayırt</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>ayırdet+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yerlerinden et   //-->
+                <constraint><token>yerlerinden</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    imha et   //-->
+                <constraint><token>imha</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    not et   //-->
+                <constraint><token>not</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahrip et   //-->
+                <constraint><token>tahrip</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    modifiye et   //-->
+                <constraint><token>modifiye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hediye et   //-->
+                <constraint><token>hediye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tavsiye et   //-->
+                <constraint><token>tavsiye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tereddüt et   //-->
+                <constraint><token>tereddüt</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dikkat et   //-->
+                <constraint><token>dikkat</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    öncülük et   //-->
+                <constraint><token>öncülük</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    altüst et   //-->
+                <constraint><token>altüst</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ümit et   //-->
+                <constraint><token>ümit</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    imza al   //-->
+                <constraint><token>imza</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    haber al   //-->
+                <constraint><token>haber</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    göz önüne al   //-->
+                <constraint><token>göz</token></constraint>
+                <constraint><token>önüne</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    elinden al   //-->
+                <constraint><token>elinden</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    geri al   //-->
+                <constraint><token>geri</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    askıya al   //-->
+                <constraint><token>askıya</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    bilgi al   //-->
+                <constraint><token>bilgi</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yol al   //-->
+                <constraint><token>yol</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hedef al   //-->
+                <constraint><token>hedef</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ilgi çek   //-->
+                <constraint><token>ilgi</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    geri çek   //-->
+                <constraint><token>geri</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    rol oyna   //-->
+                <constraint><token>rol</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="oyna"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahliye et   //-->
+                <constraint><token>tahliye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hareket et   //-->
+                <constraint><token>hareket</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    iptal et   //-->
+                <constraint><token>iptal</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahammül et   //-->
+                <constraint><token>tahammül</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ilan et   //-->
+                <constraint><token>ilan</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mücadele et   //-->
+                <constraint><token>mücadele</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    merak et   //-->
+                <constraint><token>merak</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ihraç et   //-->
+                <constraint><token>ihraç</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    teşvik et   //-->
+                <constraint><token>teşvik</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    arz et   //-->
+                <constraint><token>arz</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    teşhis et   //-->
+                <constraint><token>teşhis</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    teşekkür et   //-->
+                <constraint><token>teşekkür</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    protesto et   //-->
+                <constraint><token>protesto</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    söz et   //-->
+                <constraint><token>söz</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    istismar et   //-->
+                <constraint><token>istismar</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    mağlup et   //-->
+                <constraint><token>mağlup</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    iade et   //-->
+                <constraint><token>iade</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    garanti et   //-->
+                <constraint><token>garanti</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    idare et   //-->
+                <constraint><token>idare</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    gözardı et   //-->
+                <constraint><token>gözardı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hayal et   //-->
+                <constraint><token>hayal</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    rica et   //-->
+                <constraint><token>rica</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tanıklık et   //-->
+                <constraint><token>tanıklık</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tercih et   //-->
+                <constraint><token>tercih</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    inkar et   //-->
+                <constraint><token>inkar</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    zarar et   //-->
+                <constraint><token>zarar</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    itibar et   //-->
+                <constraint><token>itibar</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    alt üst et   //-->
+                <constraint><token>alt</token></constraint>
+                <constraint><token>üst</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>altüst %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    takviye et   //-->
+                <constraint><token>takviye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    görevinden al   //-->
+                <constraint><token>görevinden</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    satın al   //-->
+                <constraint><token>satın</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    filme al   //-->
+                <constraint><token>filme</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ele al   //-->
+                <constraint><token>ele</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    karar al   //-->
+                <constraint><token>karar</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    koruma altına al   //-->
+                <constraint><token>koruma</token></constraint>
+                <constraint><token>altına</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    övgü al   //-->
+                <constraint><token>övgü</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    izin al   //-->
+                <constraint><token>izin</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    zaman al   //-->
+                <constraint><token>zaman</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ceza çek   //-->
+                <constraint><token>ceza</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sıkıntı çek   //-->
+                <constraint><token>sıkıntı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ortaya koy   //-->
+                <constraint><token>ortaya</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="koy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kabul et   //-->
+                <constraint><token>kabul</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    meşgul et   //-->
+                <constraint><token>meşgul</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yardım et   //-->
+                <constraint><token>yardım</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tatmin et   //-->
+                <constraint><token>tatmin</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hitap et   //-->
+                <constraint><token>hitap</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ihlal et   //-->
+                <constraint><token>ihlal</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ihanet et   //-->
+                <constraint><token>ihanet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    seyehat et   //-->
+                <constraint><token>seyehat</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    müdahale et   //-->
+                <constraint><token>müdahale</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    işaret et   //-->
+                <constraint><token>işaret</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    dua et   //-->
+                <constraint><token>dua</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    istifa et   //-->
+                <constraint><token>istifa</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sohbet et   //-->
+                <constraint><token>sohbet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tedavi et   //-->
+                <constraint><token>tedavi</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    iptal et   //-->
+                <constraint><token>iptal</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    endişe et   //-->
+                <constraint><token>endişe</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    havale et   //-->
+                <constraint><token>havale</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sözünü et   //-->
+                <constraint><token>sözünü</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    parafe et   //-->
+                <constraint><token>parafe</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ameliyat et   //-->
+                <constraint><token>ameliyat</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tahsis et   //-->
+                <constraint><token>tahsis</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    rapor et   //-->
+                <constraint><token>rapor</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    akın et   //-->
+                <constraint><token>akın</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    veda et   //-->
+                <constraint><token>veda</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    bertaraf et   //-->
+                <constraint><token>bertaraf</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    empoze et   //-->
+                <constraint><token>empoze</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    isabet et   //-->
+                <constraint><token>isabet</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kat et   //-->
+                <constraint><token>kat</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ağzında sakız et   //-->
+                <constraint><token>ağzında</token></constraint>
+                <constraint><token>sakız</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yemin et   //-->
+                <constraint><token>yemin</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    önlem al   //-->
+                <constraint><token>önlem</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    esir al   //-->
+                <constraint><token>esir</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    konu al   //-->
+                <constraint><token>konu</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    tedavi aktına al   //-->
+                <constraint><token>tedavi</token></constraint>
+                <constraint><token>aktına</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %2 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    örnek al   //-->
+                <constraint><token>örnek</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    incelemeye al   //-->
+                <constraint><token>incelemeye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    zevk al   //-->
+                <constraint><token>zevk</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    nefes al   //-->
+                <constraint><token>nefes</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    oy al   //-->
+                <constraint><token>oy</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="al"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    acı çek   //-->
+                <constraint><token>acı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    güçlük çek   //-->
+                <constraint><token>güçlük</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çek"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    karşı koy   //-->
+                <constraint><token>karşı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="koy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    el koy   //-->
+                <constraint><token>el</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="koy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    imza koy   //-->
+                <constraint><token>imza</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="koy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ambargo koy   //-->
+                <constraint><token>ambargo</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="koy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yasa koy   //-->
+                <constraint><token>yasa</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="koy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ele geç   //-->
+                <constraint><token>ele</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="geç"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    abayı yak   //-->
+                <constraint><token>abayı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="yak"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    hiçe say   //-->
+                <constraint><token>hiçe</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="say"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    sona er   //-->
+                <constraint><token>sona</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="er"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    gerek gör   //-->
+                <constraint><token>gerek</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="gör"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    gerek kal   //-->
+                <constraint><token>gerek</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="kal"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    gerek duy   //-->
+                <constraint><token>gerek</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="duy"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    kayda geç   //-->
+                <constraint><token>kayda</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="geç"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yok ol   //-->
+                <constraint><token>yok</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>yokol+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    var ol   //-->
+                <constraint><token>var</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ol"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    geri kal   //-->
+                <constraint><token>geri</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="kal"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    karşı çık   //-->
+                <constraint><token>karşı</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çık"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ortaya çık   //-->
+                <constraint><token>ortaya</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="çık"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    idealize et   //-->
+                <constraint><token>idealize</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="et"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    muaf tut   //-->
+                <constraint><token>muaf</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="tut"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    yerine getir   //-->
+                <constraint><token>yerine</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="getir"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    karar ver   //-->
+                <constraint><token>karar</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="ver"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    devreye sok   //-->
+                <constraint><token>devreye</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="sok"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    etkisiz kıl   //-->
+                <constraint><token>etkisiz</token></constraint>
+                <constraint><parse matchType="leftToRight">_R="kıl"+Verb+*</parse></constraint>
+		<action>%1 %R+Verb+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    20 ocak 1991'de   //-->
+                <constraint><parse>_S+Num+Card</parse></constraint>
+                <constraint><parse>_T="ocak|şubat|mart|nisan|mayıs|haziran|temmuz|eylül|ekim|kasım|aralık"+Noun+Temp</parse></constraint>
+                <constraint><parse matchType="leftToRight">_U+Num+Card+*</parse></constraint>
+		<action>%S %T %U+Date+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    ocak 1991'de   //-->
+                <constraint><parse>_T="ocak|şubat|mart|nisan|mayıs|haziran|temmuz|eylül|ekim|kasım|aralık"+Noun+Temp</parse></constraint>
+                <constraint><parse matchType="leftToRight">_U+Num+Card+*</parse></constraint>
+		<action>%T %U+Date+*</action>
+	</collocationRule>
+        <collocationRule>   <!--    12 ocak   //-->
+                <constraint><parse>_R+Num+Card</parse></constraint>
+                <constraint><parse>_S="ocak|şubat|mart|nisan|mayıs|haziran|temmuz|eylül|ekim|kasım|aralık"+Noun+Temp+A3sg+Pnon+Nom</parse></constraint>
+		<action>%R %S+Date</action>
+	</collocationRule>
+        <collocationRule>   <!--    12 ocak'ta   //-->
+                <constraint><parse>_R+Num+Card</parse></constraint>
+                <constraint><parse matchType="leftToRight">_S="ocak|şubat|mart|nisan|mayıs|haziran|temmuz|eylül|ekim|kasım|aralık"+Noun+Temp+*</parse></constraint>
+		<action>%R %S+Date^DB+Noun+*</action>
+	</collocationRule>
+        <collocationRule>
+                <constraint><token>vb</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+		<action>vb.+Noun+A3sg+Pnon+Nom</action>
+	</collocationRule>
+        <collocationRule>
+                <constraint><token>biy</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+		<action>biyoloji+Noun+A3sg+Pnon+Nom</action>
+	</collocationRule>
+        <collocationRule>
+                <constraint><token>prof</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>profesör+Noun+A3sg+Pnon+Nom</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token>doç</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>doçent+Noun+A3sg+Pnon+Nom</action>
+        </collocationRule>
+                <collocationRule>
+                <constraint><token>dr</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>doktor+Noun+A3sg+Pnon+Nom</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token>md</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>müdür+Noun+A3sg+Pnon+Nom</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token>müh</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>mühendis+Noun+A3sg+Pnon+Nom</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token matchType="regex">Kor|Kora|Prof</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>%1.+Noun</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token matchType="regex">mö|ms</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>%1.+Adj</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token matchType="regex">m|cm|mm|dm|hm</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+                <action>%1.+Noun+A3sg+Pnon+Nom</action>
+        </collocationRule>
+        <collocationRule>
+                <constraint><token matchType="regex">[a-zA-ZçğşÇĞŞıİöÖüÜ]+</token></constraint>
+                <constraint gapAllowedBefore="false"><token>-</token></constraint>
+                <constraint gapAllowedBefore="false"><parse matchType="leftToRight">_S+Adj</parse></constraint>
+		<action>%1-%S+Adj</action>
+	</collocationRule>
+        <collocationRule>   <!-- Roman numeral (Ordinal)-->
+                <constraint><parse matchType="leftToRight">_R="m{0,4}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})"+Num+Card</parse></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+		<action>%R.+Num+Ord</action>
+	</collocationRule>
+        <collocationRule>
+                <constraint><token matchType="regex">[[a-zA-ZçğşÇĞŞ]&amp;&amp;[^aAeEiİıIoOuUöÖüÜ]]+</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+		<action>%1.+Noun+A3sg+Pnon+Nom</action>
+	</collocationRule>
+        <collocationRule>
+                <constraint><token matchType="regex">[aAeEiİıIoOuUöÖüÜ]</token></constraint>
+                <constraint gapAllowedBefore="false"><token>.</token></constraint>
+		<action>%1.+Noun+A3sg+Pnon+Nom</action>
+	</collocationRule>
+</collocationRules>

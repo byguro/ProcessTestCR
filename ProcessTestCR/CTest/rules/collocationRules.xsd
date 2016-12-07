@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <xsd:element name="collocationRules">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="collocationRule" minOccurs="0" maxOccurs="unbounded">
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element name="constraint" minOccurs="1" maxOccurs="unbounded">
+                        <xsd:complexType>
+                           <xsd:sequence>
+                              <xsd:choice>
+                                 <xsd:element ref="token"/>
+                                 <xsd:element ref="parse"/>
+                              </xsd:choice>
+                           </xsd:sequence>
+                           <xsd:attribute name="gapAllowedBefore" type="xsd:boolean" default="true"/>
+                        </xsd:complexType>
+                     </xsd:element>
+
+                     <xsd:element name="action" minOccurs="1" maxOccurs="1" type="unemptyString"/>
+
+                  </xsd:sequence>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+
+   <xsd:element name="token">
+     <xsd:complexType>
+         <xsd:simpleContent>
+            <xsd:extension base="unemptyString">
+               <xsd:attribute name="matchType" default="string">
+                  <xsd:simpleType>
+                      <xsd:restriction base="xsd:string">
+                         <xsd:enumeration value="string"/>
+                         <xsd:enumeration value="regex"/>
+                      </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:attribute>
+            </xsd:extension>
+         </xsd:simpleContent>
+     </xsd:complexType>
+   </xsd:element>
+   
+   <xsd:element name="parse">
+      <xsd:complexType>
+          <xsd:simpleContent>
+             <xsd:extension base="parseFormat">
+                  <xsd:attribute name="matchType" default="rightToLeft">
+                  <xsd:simpleType>
+                      <xsd:restriction base="xsd:string">
+                         <xsd:enumeration value="leftToRight"/>
+                         <xsd:enumeration value="rightToLeft"/>
+                      </xsd:restriction>
+                  </xsd:simpleType>
+               </xsd:attribute>
+             </xsd:extension>
+          </xsd:simpleContent>
+      </xsd:complexType>
+   </xsd:element>
+           
+   <xsd:simpleType name="parseFormat">
+      <xsd:restriction base="unemptyString">
+          <xsd:pattern value='((_[a-zA-Z](=".+")?)|([a-zA-Z0-9çğşıüöÇĞŞIÜÖ]+)|([\-\.\?!/:%])|(\.{3}))((\+[a-zA-Z0-9]+)|\^DB)*(\+\*)?'/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   
+   <xsd:simpleType name="unemptyString">
+      <xsd:restriction base="xsd:string">
+          <xsd:minLength value="1"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   
+</xsd:schema>
